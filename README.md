@@ -1,0 +1,1 @@
+QA bug screenshots (public mirror) for servinix/spec-files issue embeds.
