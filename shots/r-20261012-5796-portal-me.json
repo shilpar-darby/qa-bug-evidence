@@ -1,0 +1,23 @@
+{
+  "request": "GET https://api.dev.servinix.com/v1/portal/me (customer portal session, tenant 2512051)",
+  "status": 200,
+  "branding": {
+    "display_name": "ACME Home Services",
+    "logo_url": "https://i.postimg.cc/WbNpB0Z7/1920x1200-1l46cha0qzfg4n4d.jpg",
+    "primary_color": "#7D5083",
+    "company_phone": null,
+    "company_email": null
+  },
+  "office_hours": {
+    "status": "not_set",
+    "time_zone": "Asia/Kolkata",
+    "days": [],
+    "closures": []
+  },
+  "other_keys": [
+    "customer",
+    "modules",
+    "account",
+    "public_settings"
+  ]
+}
