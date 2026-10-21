@@ -1,0 +1,49 @@
+shot C:\Users\Shilpa R\AppData\Local\Temp\claude\C--Users-Shilpa-R-servinix-regression\59e6b418-eda0-4e9b-85de-0077fb50e923\scratchpad\ev\r6707-t1.png
+shot C:\Users\Shilpa R\AppData\Local\Temp\claude\C--Users-Shilpa-R-servinix-regression\59e6b418-eda0-4e9b-85de-0077fb50e923\scratchpad\ev\r6707-t2.png
+shot C:\Users\Shilpa R\AppData\Local\Temp\claude\C--Users-Shilpa-R-servinix-regression\59e6b418-eda0-4e9b-85de-0077fb50e923\scratchpad\ev\r6707-t3.png
+shot C:\Users\Shilpa R\AppData\Local\Temp\claude\C--Users-Shilpa-R-servinix-regression\59e6b418-eda0-4e9b-85de-0077fb50e923\scratchpad\ev\r6707-t4.png
+{
+ "turns": [
+  {
+   "url": "ai/iris/sessions/01a15e4a-db61-7000-8000-1b0df7f81402/turns",
+   "req": "{\"text\":\"Change my invoice terms to net 30\"}",
+   "status": 200,
+   "said": "I can't make that change myself. Would you like me to get a person from the support team to assist you?",
+   "widgets": [
+    "{\"component_id\":\"ticket_offer\",\"schema_version\":1,\"props\":{\"due_at\":\"2026-10-23T11:48:51.538Z\",\"time_zone\":\"America/Los_Angeles\"}}"
+   ],
+   "raw": ""
+  },
+  {
+   "url": "ai/iris/sessions/01a15e4a-db61-7000-8000-1b0df7f81402/turns",
+   "req": "{\"text\":\"What are your office hours?\"}",
+   "status": 200,
+   "said": "",
+   "widgets": [
+    "{\"component_id\":\"answer_with_sources\",\"schema_version\":1,\"props\":{\"text\":\"I'm not sure about that one. I can get a person from our team to help â€” would you like me to open a ticket?\",\"sources\":[]}}"
+   ],
+   "raw": "data: {\"type\":\"start\",\"messageMetadata\":{\"session_id\":\"01a15e4a-db61-7000-8000-1b0df7f81402\",\"agent\":\"iris\"}}\n\ndata: {\"type\":\"data-widget\",\"id\":\"iris-answer_with_sources-0\",\"data\":{\"component_id\":\"answer_with_sources\",\"schema_version\":1,\"props\":{\"text\":\"I'm not sure about that one. I can get a perso"
+  },
+  {
+   "url": "ai/iris/sessions/01a15e4a-db61-7000-8000-1b0df7f81402/turns",
+   "req": "{\"text\":\"yes\"}",
+   "status": 200,
+   "said": "Done â€” I've opened ticket SVX-2610162-00001 for you. A person from our team will reply by Fri, Oct 23, 4:49 AM PDT.",
+   "widgets": [
+    "{\"component_id\":\"ticket_opened\",\"schema_version\":1,\"props\":{\"ticket_number\":\"SVX-2610162-00001\",\"ticket_id\":\"01a15e4b-dc4d-722c-b733-434ef052ea08\",\"due_at\":\"2026-10-23T11:49:52.329Z\",\"time_zone\":\"America/Los_Angeles\"}}"
+   ],
+   "raw": ""
+  },
+  {
+   "url": "ai/iris/sessions/01a15e4a-db61-7000-8000-1b0df7f81402/turns",
+   "req": "{\"text\":\"Change my tax rate to 9%\"}",
+   "status": 200,
+   "said": "I've added this to your open ticket.",
+   "widgets": [
+    "{\"component_id\":\"ticket_opened\",\"schema_version\":1,\"props\":{\"ticket_number\":\"SVX-2610162-00001\",\"ticket_id\":\"01a15e4b-dc4d-722c-b733-434ef052ea08\",\"due_at\":\"2026-10-23T11:49:52.329Z\",\"time_zone\":\"America/Los_Angeles\"}}"
+   ],
+   "raw": ""
+  }
+ ],
+ "panel": "Get Help Iris · Servinix Support Iris Hi, I'm Iris, Servinix's AI support assistant. What do you need help with? You Change my invoice terms to net 30 Iris I can't make that change myself. Would you like me to get a person from the support team to assist you? Iris Someone from our team will reply by Fri, 4:48 AM Pacific. Open a Ticket You What are your office hours? Iris I'm not sure about that one. Talk to a Person You yes Iris Done — I've opened ticket SVX-2610162-00001 for you. A person from our team will reply by Fri, Oct 23, 4:49 AM PDT. Iris Ticket SVX-2610162-00001 is open. Reply by Fri, 4:49 AM. You Change my tax rate to 9% Iris I've added this to your open ticket. Iris Ticket SVX-2610162-00001 is open. Reply by Fri, 4:49 AM. Talk to a Person"
+}
