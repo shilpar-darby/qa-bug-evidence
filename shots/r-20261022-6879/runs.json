@@ -1,0 +1,80 @@
+[
+ {
+  "run": 1,
+  "landed": "https://web.dev.servinix.com/settings",
+  "final": "https://web.dev.servinix.com/support/users",
+  "afterStopCalls": 6,
+  "flagged": []
+ },
+ {
+  "run": 2,
+  "landed": "https://web.dev.servinix.com/settings",
+  "final": "https://web.dev.servinix.com/support/users",
+  "afterStopCalls": 6,
+  "flagged": [],
+  "sample": [
+   "200 ADMIN POST tokens/impersonate/logout",
+   "200 SUPPORT_L2 GET tenants",
+   "200 SUPPORT_L2 GET me",
+   "200 SUPPORT_L2 POST support/users/search",
+   "200 SUPPORT_L2 GET support/ai/approvals",
+   "200 SUPPORT_L2 POST support/users/search"
+  ]
+ },
+ {
+  "run": 3,
+  "landed": "https://web.dev.servinix.com/settings",
+  "final": "https://web.dev.servinix.com/support/users",
+  "afterStopCalls": 6,
+  "flagged": []
+ },
+ {
+  "run": 4,
+  "landed": "https://web.dev.servinix.com/settings",
+  "final": "https://web.dev.servinix.com/support/users",
+  "afterStopCalls": 6,
+  "flagged": []
+ },
+ {
+  "run": 5,
+  "landed": "https://web.dev.servinix.com/settings",
+  "final": "https://web.dev.servinix.com/support/users",
+  "afterStopCalls": 6,
+  "flagged": []
+ },
+ {
+  "run": 6,
+  "landed": "https://web.dev.servinix.com/settings",
+  "final": "https://web.dev.servinix.com/support/users",
+  "afterStopCalls": 6,
+  "flagged": []
+ },
+ {
+  "run": 7,
+  "landed": "https://web.dev.servinix.com/settings",
+  "final": "https://web.dev.servinix.com/support/users",
+  "afterStopCalls": 6,
+  "flagged": []
+ },
+ {
+  "run": 8,
+  "landed": "https://web.dev.servinix.com/settings",
+  "final": "https://web.dev.servinix.com/support/users",
+  "afterStopCalls": 6,
+  "flagged": []
+ },
+ {
+  "run": 9,
+  "landed": "https://web.dev.servinix.com/settings",
+  "final": "https://web.dev.servinix.com/support/users",
+  "afterStopCalls": 6,
+  "flagged": []
+ },
+ {
+  "run": 10,
+  "landed": "https://web.dev.servinix.com/settings",
+  "final": "https://web.dev.servinix.com/support/users",
+  "afterStopCalls": 6,
+  "flagged": []
+ }
+]
