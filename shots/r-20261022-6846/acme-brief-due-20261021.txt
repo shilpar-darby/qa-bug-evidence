@@ -1,0 +1,33 @@
+REI lift for 4307 Cole Avenue | {"id": "01a15ce4-3380-71ec-b939-145fe80dfc71", "url": "/settings", "type": "obligation"}
+QA1923 Recurring zone re-check (now 2-hourly) | {"id": "01a084d4-97ca-7465-8faf-5ca4fcba0440", "url": "/settings", "type": "obligation"}
+QA1923 Pause/resume recurring probe (6h) | {"id": "01a084d5-21e5-723d-9730-f5c4bb61f3ab", "url": "/settings", "type": "obligation"}
+Right to cancel on Estimate 04778 for VV-r8-6823 Fixture | {"id": "01a14f5e-73b3-73f2-810f-09737d9a293a", "url": "/settings", "type": "obligation"}
+Right to cancel (abb606) | {"id": "01a148f8-3269-7089-a51a-bd73f7403fca", "url": "/settings", "type": "obligation"}
+Right to cancel on Estimate 00633 for Navanit Kumar Tripathi | {"id": "01a14bbb-b662-705c-90f7-d7935fb4d1cc", "url": "/settings", "type": "obligation"}
+Right to cancel (be8489) | {"id": "01a14f1d-29fb-73d8-a6d9-b44c8f41a67c", "url": "/settings", "type": "obligation"}
+Right to cancel on Estimate 00659 for Navanit Kumar Tripathi | {"id": "01a14bbb-c73c-72cb-b030-29d457c0be62", "url": "/settings", "type": "obligation"}
+Right to cancel on Estimate 04777 for Navanit Kumar Tripathi | {"id": "01a14f59-9f97-76ea-8629-27a8b1125e49", "url": "/settings", "type": "obligation"}
+Right to cancel (2602be) | {"id": "01a148e9-1fe9-745d-91e4-25ba0a3ad0bb", "url": "/settings", "type": "obligation"}
+Right to cancel (51ed17) | {"id": "01a148f6-c97b-738f-bfa9-a3ceac59d827", "url": "/settings", "type": "obligation"}
+Right to cancel (093164) | {"id": "01a148c9-b242-72bd-b891-2afe6076f385", "url": "/settings", "type": "obligation"}
+Right to cancel (436566) | {"id": "01a148ce-6a02-72be-b95f-ec7eaffdf3f0", "url": "/settings", "type": "obligation"}
+Right to cancel (5a4592) | {"id": "01a148d1-b411-716c-afe8-a064d4be9ada", "url": "/settings", "type": "obligation"}
+Right to cancel (f4e4b6) | {"id": "01a14906-1cd6-7552-8d90-680fa067d963", "url": "/settings", "type": "obligation"}
+Right to cancel (ebe070) | {"id": "01a1490e-a190-7682-bca3-0697c5334110", "url": "/settings", "type": "obligation"}
+Right to cancel (b8fcde) | {"id": "01a148d3-32e5-716e-bfce-ebb8b0fce2cf", "url": "/settings", "type": "obligation"}
+Right to cancel on Estimate 04974 for Anjali Nair | {"id": "01a15324-41d8-769b-b195-dcd3266b8c06", "url": "/settings", "type": "obligation"}
+Right to cancel on Estimate 04975 for Anjali Nair | {"id": "01a15324-4b0e-766c-bb09-d1543d1bba10", "url": "/settings", "type": "obligation"}
+Right to cancel (3775a5) | {"id": "01a154de-fab3-7301-82e8-d281bf01e412", "url": "/settings", "type": "obligation"}
+Right to cancel on Estimate 05002 | {"id": "01a1540e-0194-73ab-ac8b-4ebc6a94e3cf", "url": "/settings", "type": "obligation"}
+Right to cancel (c2e545) | {"id": "01a152d5-9a9f-746e-976d-7b26ad6f973a", "url": "/settings", "type": "obligation"}
+Right to cancel (5c667e) | {"id": "01a152d0-c2da-701f-a13e-b5ce575a580b", "url": "/settings", "type": "obligation"}
+Right to cancel on Estimate 05029 for Elena Rivera QA5755-TX | {"id": "01a15421-3fac-76b3-b5c1-8ae67bbb0562", "url": "/settings", "type": "obligation"}
+Payment retry on Invoice 00441 for Navanit Kumar Tripathi | {"id": "01a13df3-0dcf-750a-9bfb-2d68f873f229", "url": "/payments/invoices/cf742222-9749-45b2-84b3-ba10fbb6d0a9", "type": "obligation"}
+Payment retry on Invoice 00715 for Navanit Kumar Tripathi | {"id": "01a157b2-dab4-7447-8582-2cd2c40b58eb", "url": "/payments/invoices/9492b12e-dea9-4782-97b2-965492cc282b", "type": "obligation"}
+Payment retry on Invoice 00714 for Navanit Kumar Tripathi | {"id": "01a157b2-df3a-70ed-8005-7ffa70ef39c8", "url": "/payments/invoices/ad9d1844-5df7-4b63-9152-2e4202878f8c", "type": "obligation"}
+Payment retry on Invoice 00183 for Navanit Kumar Tripathi | {"id": "01a14350-58d4-7450-8e90-a586931ea7a4", "url": "/payments/invoices/b1d165e2-7dd9-4395-ac6e-bc29d58cd9ae", "type": "obligation"}
+Payment retry on Invoice 00453 for Navanit Kumar Tripathi | {"id": "01a1442c-1226-732b-bdb3-54e351a96a6f", "url": "/payments/invoices/674d1608-1a86-4b60-8827-96cb8434dcd1", "type": "obligation"}
+Payment retry on Invoice 00454 for Navanit Kumar Tripathi | {"id": "01a1442c-16bd-7441-94fe-fcf6351c0119", "url": "/payments/invoices/0692ded2-3fb3-41da-95f4-46aeb4ab1a36", "type": "obligation"}
+Driver's License expires Oct 25, 2026 | {"id": "01a06648-285d-743f-9f68-17c7e7f12435", "url": "/settings/compliance", "type": "obligation"}
+Right to cancel on Estimate 05438 for Corinne Abernathy | {"id": "01a15d75-035d-7637-afc4-a64760141218", "url": "/settings", "type": "obligation"}
+ASE Certification (A1-A8) expires Oct 26, 2026 | {"id": "01a06648-285f-701f-ac2a-5a837f01c076", "url": "/settings/compliance", "type": "obligation"}
