@@ -1,0 +1,126 @@
+{
+ "2608181": {
+  "as_of": "2026-10-26T12:51:24.817Z",
+  "time_zone": "America/Chicago",
+  "unobserved": {
+   "check_engine_on": 22,
+   "battery_low": 28
+  },
+  "battery_low_items": [
+   {
+    "kind": "battery_low",
+    "title": "QA Ping Van 01: battery low, last reading 8.4 V",
+    "subject": "QA Ping Van 01",
+    "since": "2026-09-28T04:50:09.000Z",
+    "record": {
+     "type": "vehicle",
+     "id": "395fe361-a9eb-446c-895d-fcdc453170fb",
+     "url": "/live/395fe361-a9eb-446c-895d-fcdc453170fb/history"
+    },
+    "vehicle_name": "QA Ping Van 01",
+    "volts": 8.4
+   },
+   {
+    "kind": "battery_low",
+    "title": "Battery A9 (fixture): battery low, last reading 11.2 V",
+    "subject": "Battery A9 (fixture)",
+    "since": "2026-10-26T02:30:30.000Z",
+    "record": {
+     "type": "vehicle",
+     "id": "5ddbfcd5-82f3-4e61-aa13-5b4944b4b37d",
+     "url": "/live/5ddbfcd5-82f3-4e61-aa13-5b4944b4b37d/history"
+    },
+    "vehicle_name": "Battery A9 (fixture)",
+    "volts": 11.2
+   },
+   {
+    "kind": "battery_low",
+    "title": "Battery V8 (fixture): battery low, last reading 11.7 V",
+    "subject": "Battery V8 (fixture)",
+    "since": "2026-10-26T05:29:21.000Z",
+    "record": {
+     "type": "vehicle",
+     "id": "1870bc11-1e3e-4724-8136-2fc8019523a7",
+     "url": "/live/1870bc11-1e3e-4724-8136-2fc8019523a7/history"
+    },
+    "vehicle_name": "Battery V8 (fixture)",
+    "volts": 11.7
+   },
+   {
+    "kind": "battery_low",
+    "title": "Battery A2 (fixture): battery low, last reading 11.7 V",
+    "subject": "Battery A2 (fixture)",
+    "since": "2026-10-26T05:29:44.000Z",
+    "record": {
+     "type": "vehicle",
+     "id": "a03c37a6-08d4-48d1-aed1-f120b91f7ef5",
+     "url": "/live/a03c37a6-08d4-48d1-aed1-f120b91f7ef5/history"
+    },
+    "vehicle_name": "Battery A2 (fixture)",
+    "volts": 11.7
+   },
+   {
+    "kind": "battery_low",
+    "title": "Battery A5 (fixture): battery low, last reading 11.8 V",
+    "subject": "Battery A5 (fixture)",
+    "since": "2026-10-26T05:30:04.000Z",
+    "record": {
+     "type": "vehicle",
+     "id": "7a1e53b6-21bc-42af-9813-b6fc69b4a791",
+     "url": "/live/7a1e53b6-21bc-42af-9813-b6fc69b4a791/history"
+    },
+    "vehicle_name": "Battery A5 (fixture)",
+    "volts": 11.8
+   },
+   {
+    "kind": "battery_low",
+    "title": "Battery A6 (fixture): battery low, last reading 11.3 V",
+    "subject": "Battery A6 (fixture)",
+    "since": "2026-10-26T05:30:13.000Z",
+    "record": {
+     "type": "vehicle",
+     "id": "5e9d2faa-fb53-44a9-8415-bcdabb628993",
+     "url": "/live/5e9d2faa-fb53-44a9-8415-bcdabb628993/history"
+    },
+    "vehicle_name": "Battery A6 (fixture)",
+    "volts": 11.3
+   },
+   {
+    "kind": "battery_low",
+    "title": "Battery A7 (fixture): battery low, last reading 11.7 V",
+    "subject": "Battery A7 (fixture)",
+    "since": "2026-10-26T05:30:23.000Z",
+    "record": {
+     "type": "vehicle",
+     "id": "68f5a095-e2ed-41ec-aaeb-7c9a0127977d",
+     "url": "/live/68f5a095-e2ed-41ec-aaeb-7c9a0127977d/history"
+    },
+    "vehicle_name": "Battery A7 (fixture)",
+    "volts": 11.7
+   }
+  ]
+ },
+ "2605182": {
+  "as_of": "2026-10-26T12:51:34.535Z",
+  "time_zone": "America/Los_Angeles",
+  "unobserved": {
+   "check_engine_on": 6,
+   "battery_low": 14
+  },
+  "battery_low_items": [
+   {
+    "kind": "battery_low",
+    "title": "Rahul Volvo S60 2013: battery low, last reading 9.1 V",
+    "subject": "Rahul Volvo S60 2013",
+    "since": "2026-09-28T16:38:41.000Z",
+    "record": {
+     "type": "vehicle",
+     "id": "e72b90db-17f6-4b63-a5d0-bb72bbc294dc",
+     "url": "/live/e72b90db-17f6-4b63-a5d0-bb72bbc294dc/history"
+    },
+    "vehicle_name": "Rahul Volvo S60 2013",
+    "volts": 9.1
+   }
+  ]
+ }
+}
