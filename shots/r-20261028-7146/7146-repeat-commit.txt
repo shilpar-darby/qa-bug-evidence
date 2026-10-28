@@ -1,0 +1,5 @@
+at 2026-10-28T10:10:22.283Z as {"tenant":2608181,"role":"Dispatcher","user_type":"USER"}
+TC-03 repeat commit: 200 in 241 ms {"status":"rejected","reason":"This solve has already been committed.","http_status":409,"code":"already_committed","details":{"commit_id":""}}
+TC-13 two at once (A): 200 in 237 ms {"status":"rejected","reason":"This solve has already been committed.","http_status":409,"code":"already_committed","details":{"commit_id":""}}
+TC-13 two at once (B): 200 in 1025 ms {"status":"rejected","reason":"This solve has already been committed.","http_status":409,"code":"already_committed","details":{"commit_id":""}}
+control unknown solve: 200 in 263 ms {"status":"rejected","reason":"Unknown solve_id"}
