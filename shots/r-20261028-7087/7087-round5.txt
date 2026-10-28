@@ -1,0 +1,27 @@
+#7087 round 5, Owais 2512051, admin, user-api#896; draft imports only, each discarded (DELETE 204)
+discards: ['01a1822d-c812-733d-9c55-d63f15b488b0 204', '01a1822d-cdff-733d-9c55-db4c27290b14 204', '01a1822d-d3d7-733d-9c55-e109c4e8ec25 204', '01a1822d-d7c8-733d-9c55-ea9ea655b877 204', '01a1822d-de6c-733d-9c55-f7ac132897a5 204', '01a1822d-e709-733d-9c55-fe5d39502db4 204']
+
+== a.csv uploaded twice into one draft (TC-21, 23, 24, 29)
+row 1 line 2: Can't import | Phone extension is not supported; remove it from the number | as-read status/type='Active'/'Residential' mapped=active/individual | as-read site name=None type='' contacts=0 | mapped site name='10 Elm St' type=other contacts=0
+row 2 line 3: Can't import | Business name is required | as-read status/type='Inactive'/'COMMERCIAL' mapped=inactive/company | as-read site name=None type='' contacts=0 | mapped site name='11 Elm St' type=other contacts=1
+row 3 line 4: Can't import | Status must be Active or Inactive (got "Prospect") | as-read status/type='Prospect'/'Residential' mapped=active/individual | as-read site name=None type='' contacts=0 | mapped site name='12 Elm St' type=other contacts=1
+row 4 line 5: New | None | as-read status/type='Active'/'Residential' mapped=active/individual | as-read site name=None type='' contacts=0 | mapped site name='13 Elm St' type=other contacts=1
+row 5 line 6: New | None | as-read status/type=''/None mapped=active/individual | as-read site name=None type='' contacts=0 | mapped site name='4417 Oak Dr' type=other contacts=1
+row 6 line 2: Can't import | Phone extension is not supported; remove it from the number | as-read status/type='Active'/'Residential' mapped=active/individual | as-read site name=None type='' contacts=0 | mapped site name='10 Elm St' type=other contacts=0
+row 7 line 3: Can't import | Business name is required | as-read status/type='Inactive'/'COMMERCIAL' mapped=inactive/company | as-read site name=None type='' contacts=0 | mapped site name='11 Elm St' type=other contacts=1
+row 8 line 4: Can't import | Status must be Active or Inactive (got "Prospect") | as-read status/type='Prospect'/'Residential' mapped=active/individual | as-read site name=None type='' contacts=0 | mapped site name='12 Elm St' type=other contacts=1
+row 9 line 5: Decide | Same Jobber Client ID as row 4 | as-read status/type='Active'/'Residential' mapped=active/individual | as-read site name=None type='' contacts=0 | mapped site name='13 Elm St' type=other contacts=1
+row 10 line 6: Decide | Same Jobber Client ID as row 5 | as-read status/type=''/None mapped=active/individual | as-read site name=None type='' contacts=0 | mapped site name='4417 Oak Dr' type=other contacts=1
+
+== formats (TC-25)
+b-cp1252.csv 400 Could not read b-cp1252.csv: the file is not UTF-8 text; save it as "CSV UTF-8" and add it again
+c-semi.csv 400 Could not read c-semi.csv: its columns are separated by semicolons, not commas; save it as a comma-separated CSV and add it again
+d-extra.csv line 2 New None
+d-extra.csv line 3 Can't import Line 3 has 10 values but the file has 8 columns
+d-extra.csv line 6 New None
+
+== two files in one request (TC-27): 400 Add one file at a time; this request carried more than one
+== two uploads at once (TC-33): [{'s': 201, 'ms': 995}, {'s': 201, 'ms': 1412}] -> draft total 1600
+== 5,816 rows (TC-28): 201 2965 ms
+
+== Country US ZIP file (TC-32): row1 ZIP 1234 -> Can't import "ZIP code must be 5 digits (got \"1234\")"; row2 75201-6390 -> New; row3 M5V 2T6 (CA) -> New
