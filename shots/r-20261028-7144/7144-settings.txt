@@ -1,0 +1,33 @@
+#7144 live read 2026-10-28 ~12:25Z (dispatch settings; PUT body {routing_optimize_enabled:false})
+== disp81 (Acme 2608181, QA Dispatcher)
+>>> GET /v1/jobs/dispatch/settings
+200
+"routing_optimize_enabled":true
+"hitl_posture":"exceptions-only"
+"route_notification_enabled":true
+>>> PUT /v1/jobs/dispatch/settings
+200
+"routing_optimize_enabled":true
+"hitl_posture":"exceptions-only"
+"route_notification_enabled":true
+>>> GET /v1/jobs/dispatch/settings
+200
+"routing_optimize_enabled":true
+"hitl_posture":"exceptions-only"
+"route_notification_enabled":true
+== own51 (Owais 2512051, admin)
+>>> GET /v1/jobs/dispatch/settings
+200
+"routing_optimize_enabled":false
+"hitl_posture":"exceptions-only"
+"route_notification_enabled":true
+>>> PUT /v1/jobs/dispatch/settings
+200
+"routing_optimize_enabled":false
+"hitl_posture":"exceptions-only"
+"route_notification_enabled":true
+>>> GET /v1/jobs/dispatch/settings
+200
+"routing_optimize_enabled":false
+"hitl_posture":"exceptions-only"
+"route_notification_enabled":true
