@@ -1,0 +1,7 @@
+uiautomator dump, Servinix Go 1.0.779, Now tab Wed Oct 28 after 05395 moved ahead of the KEEP job (two "Moved" chips visible)
+
+now-job-card content-desc="QA7291 Shilpa crew - two-tech stop for QA4045 Customer B" clickable=true
+now-job-card content-desc="QA7291 Shilpa crew - arrival stop for QA4045 Customer B, Late, 9:30 AM" clickable=true
+now-job-card content-desc="iOS E2E smoke daily job - KEEP · Visit 10 for iOSE2E Smoke KEEP, Late, 10:00 AM" clickable=true
+Moved text node: [('clickable', 'false'), ('focusable', 'false'), ('clickable', 'false'), ('bounds', '[482,1368][564,1405]')]
+Moved text node: [('clickable', 'false'), ('focusable', 'false'), ('clickable', 'false'), ('bounds', '[462,1536][544,1573]')]
