@@ -1,0 +1,31 @@
+GET /v1/me/technicians/first-day-signals (owner, Owais 2512051), QA7291 row only
+
+before: state never_signed_in
+
+after first login (~09:57Z):
+[
+ {
+  "technician": {
+   "id": "01a18167-517a-755e-979f-f28da88314c0",
+   "name": "QA7291 Crew Member"
+  },
+  "state": "set_up",
+  "invited_at": "2026-10-28T07:26:34.465Z",
+  "set_up_at": "2026-10-28T09:56:48.103Z",
+  "opened_job_at": null
+ }
+]
+
+after opening a job (~10:00Z):
+[
+ {
+  "technician": {
+   "id": "01a18167-517a-755e-979f-f28da88314c0",
+   "name": "QA7291 Crew Member"
+  },
+  "state": "opened_job",
+  "invited_at": "2026-10-28T07:26:34.465Z",
+  "set_up_at": "2026-10-28T09:56:48.103Z",
+  "opened_job_at": "2026-10-28T09:58:12.112Z"
+ }
+]
