@@ -1,0 +1,23 @@
+GET /v1/support/ai-reviews/verdicts?from=2026-10-27&to=2026-10-28&agent=otto
+read 2026-10-28 ~10:15Z as SUPPORT_AI_REVIEWER (shilpar+aireviewer), HTTP 200
+
+total rows: 4535
+by status / skip_reason: [(('skipped', 'no_tool_record'), 3445), (('failed', None), 980), (('skipped', 'too_few_turns'), 110)]
+rows with a verdict: 0
+failed rows: 980 across 171 sessions (5 axes each); note null on all; tokens_in null on all
+judge_model on failed rows: [('gpt-4o-2024-08-06', 855), ('gpt-4o-2026-08-06', 125)]
+first row 2026-10-28T04:34:41.270Z, first failed 2026-10-28T04:44:41.281Z, last row 2026-10-28T08:27:48.763Z
+
+rows per UTC hour:
+  2026-10-28T04Z failed: 15
+  2026-10-28T04Z skipped: 585
+  2026-10-28T05Z failed: 10
+  2026-10-28T05Z skipped: 1190
+  2026-10-28T06Z failed: 115
+  2026-10-28T06Z skipped: 985
+  2026-10-28T07Z failed: 305
+  2026-10-28T07Z skipped: 795
+  2026-10-28T08Z failed: 535
+
+sample failed row:
+{"id": "01a180d3-1bc2-7bb3-8167-3b3a3578267d", "run_id": "01a180d3-1bc0-7bb3-8167-31d6f0e128ec", "conversation_id": "019f22a5-7566-7000-8000-253087ea2722", "agent": "otto", "channel": "in_app", "tenant_id": 2512051, "source": "dogfood", "axis": "grounded", "rubric_version": "v2", "judge_model": "gpt-4o-2026-08-06", "last_turn_position": 1, "status": "failed", "skip_reason": null, "verdict": null, "note": null, "tokens_in": null, "tokens_out": null, "run_started_at": "2026-10-28T04:44:41.261Z", "created_at": "2026-10-28T04:44:41.281Z", "updated_at": "2026-10-28T04:44:43.015Z", "run_status": "failed"}
