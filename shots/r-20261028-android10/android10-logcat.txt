@@ -1,0 +1,9 @@
+Android 10 (API 29, SQLite 3.22.0) emulator, 2026-10-28
+
+1.0.754 (r.1.0.14) fresh install, launch:
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to create application com.servinix.go.MainApplication: android.database.sqlite.SQLiteException: near "COLUMN": syntax error (code 1 SQLITE_ERROR): , while compiling: ALTER TABLE GPSTripEvent RENAME COLUMN tripId TO serverTripId
+
+1.0.776 (main 3cd778bd) fresh install, launch: no crash (crash buffer empty), sign-in screen, sign-in OK
+1.0.776 installed over 1.0.754, launch: no crash (crash buffer empty)
+1.0.776 package: versionCode=2326 minSdk=29 targetSdk=36
