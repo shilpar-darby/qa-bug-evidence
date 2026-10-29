@@ -1,0 +1,67 @@
+[
+ {
+  "q": "what jobs are scheduled for November 5?",
+  "secs": 17,
+  "reply": "Jobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nFP fixture — visit 3 of 3\n\t\nScheduled\n\t\n2026-11-05\n\t\nHome\n\t\n0\n\n\nQA5098 US suite probe B - DELETE · Visit 4\n\t\nScheduled\n\t\n2026-11-05\n\t\nQA5098 Suite Site - DELETE\n\t\n0\n\n\nWeekly pool service — Delgado Residence · Visit 7\n\t\nScheduled\n\t\n2026-11-05\n\t\nDelgado Residence\n\t\n0\n\n\nWeekly pool service — Sutherland Residence · Visit 7\n\t\nScheduled\n\t\n2026-11-05\n\t\nSutherland Residence\n\t\n0\n\n\nWeekly pool service — Moreau Residence · Visit 7\n\t\nScheduled\n\t\n2026-11-05\n\t\nMoreau Residence\n\t\n0\n\n\nWeekly pool service — Whitfield Residence · Visit 7\n\t\nScheduled\n\t\n2026-11-05\n\t\nWhitfield Residence\n\t\n0\n\n\nWeekly pool service — Brennan Residence · Visit 7\n\t\nScheduled\n\t\n2026-11-05\n\t\nBrennan Residence\n\t\n0\n\n\nWeekly pool service — Pemberton Residence · Visit 7\n\t\nScheduled\n\t\n2026-11-05\n\t\nPemberton Residence\n\t\n0\n\n\nWeekly pool service — Harper Residence · Visit 7\n\t\nScheduled\n\t\n2026-11-05\n\t\nHarper Residence\n\t\n0\n\n\nWeekly pool service — Castellano Residence · Visit 7\n\t\nScheduled\n\t\n2026-11-05\n\t\nCastellano Residence\n\t\n0\n\n1–10of13results\n\n10\n/ page\n1\n2\n\nThere are 13 jobs scheduled for Thursday, November 5, 2026. Here are a few:\n\nFP fixture — visit 3 of 3 at Home for FP fixture — Three Visits, scheduled at 9:00 AM.\nQA5098 US suite probe B - DELETE · Visit 4 at QA5098 Suite Site - DELETE for QA5098 Probe, scheduled at 8:00 AM.\nWeekly pool service — Delgado Residence · Visit 7 at Delgado Residence for Lucia Delgado, scheduled at 2:45 PM.\n\nNone of these jobs have technicians assigned. Would you like to see more details or check another date?\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 10,
+    "first": [
+     "FP fixture — visit 3 of 3 Scheduled 2026-11-05 Home 0",
+     "QA5098 US suite probe B - DELETE · Visit 4 Scheduled 2026-11-05 QA5098 Suite Site - DELETE 0",
+     "Weekly pool service — Delgado Residence · Visit 7 Scheduled 2026-11-05 Delgado Residence 0"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "show me the rest",
+  "secs": 14,
+  "reply": "Unassigned today\n\nTime\n\tCustomer\n\tAddress\n\tJob\n\tLink\n\n\n8 AM\n\t\nQA5098 Probe\n\t\n500 Elm Street Suite 400, Dallas\n\t\nQA5098 US suite probe B - DELETE · Visit 3\n\t\n/jobs/01a11f80-75e7-7445-b452-c73031906f61\n\n1–1of1results\n\n10\n/ page\n1\n\n1 job today has no technician. 65 more have no time yet.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Time | Customer | Address | Job | Link",
+    "rows": 1,
+    "first": [
+     "8 AM QA5098 Probe 500 Elm Street Suite 400, Dallas QA5098 US suite probe B - DELETE · Visit 3 /jobs/01a11f80-75e7-7445-b"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "did the haddad water heater install get done?",
+  "secs": 14,
+  "reply": "I couldn't find a customer called \"Haddad water heater install.\" If you have more details or another name to check, let me know.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "which jobs is Mike Chen assigned to?",
+  "secs": 14,
+  "reply": "Unassigned today\n\nTime\n\tCustomer\n\tAddress\n\tJob\n\tLink\n\n\n8 AM\n\t\nQA5098 Probe\n\t\n500 Elm Street Suite 400, Dallas\n\t\nQA5098 US suite probe B - DELETE · Visit 3\n\t\n/jobs/01a11f80-75e7-7445-b452-c73031906f61\n\n1–1of1results\n\n10\n/ page\n1\n\nJobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nClubhouse pool service — Canyon Lakes\n\t\nDispatched\n\t\n2026-09-21\n\t\nCanyon Lakes Clubhouse Pool\n\t\n1\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 3/53\n\t\nDispatched\n\t\n2026-09-29\n\t\nPetrova Residence\n\t\n1\n\n\nHaddad Residence — water heater diagnostic\n\t\nOn hold\n\t\n2026-09-01\n\t\n\t\n1\n\n\nAlcosta Warehouse — rodent monitoring service\n\t\nIn progress\n\t\n2026-09-01\n\t\n\t\n1\n\n\nNguyen Residence — weekly pool service\n\t\nDispatched\n\t\n2026-09-02\n\t\nNguyen Residence\n\t\n1\n\n\nQA HOLD — window collision test (#3876) — Mike Chen\n\t\nCancelled\n\t\n2026-09-22\n\t\nChen Residence\n\t\n1\n\n\nEquipment inspection — Chen\n\t\nPayment due\n\t\n2026-08-27\n\t\nChen Residence\n\t\n1\n\n\nPetrova Residence — Weekly Pool Service\n\t\nPayment due\n\t\n2026-08-27\n\t\n5580 Dougherty Rd\n\t\n1\n\n\nNguyen Residence — filter cartridge replacement\n\t\nCancelled\n\t\n2026-08-29\n\t\n\t\n1\n\n1–9of9results\n\n10\n/ page\n1\n\nMike Chen is assigned to 9 jobs. Here are the details:\n\nClubhouse pool service — Canyon Lakes\n\nStatus: Dispatched\nScheduled at: September 21, 2026, 3:00 PM\nCustomer: Canyon Lakes Country Club\n\nWeekly Residential Pool Maintenance Estimate · Visit 3/53\n\nStatus: Dispatched\nScheduled at: September 29, 2026, 8:45 AM\nCustomer: Elena Petrova\n\nHaddad Residence — water heater diagnostic\n\nStatus: On hold\nScheduled at: September 1, 2026, 3:00 PM\nCustomer: Samir Haddad\n\nAlcosta Warehouse — rodent monitoring service\n\nStatus: In progress\nScheduled at: September 1, 2026, 4:00 PM\nCustomer: Tri-Valley Distribution Co\n\nNguyen Residence — weekly pool service\n\nStatus: Dispatched\nScheduled at: September 2, 2026, 6:00 PM\nCustomer: Lan Nguyen\n\nQA HOLD — window collision test (#3876) — Mike Chen\n\nStatus: Cancelled\nScheduled at: September 22, 2026, 4:00 PM\nCustomer: Marvin Chen\n\nEquipment inspection — Chen\n\nStatus: Payment pending\nScheduled at: August 27, 2026, 5:00 PM\nCustomer: Marvin Chen\n\nPetrova Residence — Weekly Pool Service\n\nStatus: Payment pending\nScheduled at: August 27, 2026, 5:00 PM\nCustomer: Elena Petrova\n\nNguyen Residence — filter cartridge replacement\n\nStatus: Cancelled\nScheduled at: August 29, 2026, 5:00 PM\nCustomer: Lan Nguyen\n\nAdditionally, 1 job today has no technician, and 65 more have no time yet.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Time | Customer | Address | Job | Link",
+    "rows": 1,
+    "first": [
+     "8 AM QA5098 Probe 500 Elm Street Suite 400, Dallas QA5098 US suite probe B - DELETE · Visit 3 /jobs/01a11f80-75e7-7445-b"
+    ]
+   },
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 9,
+    "first": [
+     "Clubhouse pool service — Canyon Lakes Dispatched 2026-09-21 Canyon Lakes Clubhouse Pool 1",
+     "Weekly Residential Pool Maintenance Estimate · Visit 3/53 Dispatched 2026-09-29 Petrova Residence 1",
+     "Haddad Residence — water heater diagnostic On hold 2026-09-01 1"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "text him we're running late",
+  "secs": 14,
+  "reply": "Which customer should I text about the delay?\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ }
+]
