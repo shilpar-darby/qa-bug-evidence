@@ -1,0 +1,160 @@
+[
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "did the haddad water heater install get done?",
+  "secs": 153,
+  "reply": "I couldn't find a job named \"Haddad water heater install.\" If you have more details or another name for the job, I can try looking it up again.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "which jobs is Mike Chen assigned to?",
+  "secs": 14,
+  "reply": "Jobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nClubhouse pool service — Canyon Lakes\n\t\nDispatched\n\t\n2026-09-21\n\t\nCanyon Lakes Clubhouse Pool\n\t\n1\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 3/53\n\t\nDispatched\n\t\n2026-09-29\n\t\nPetrova Residence\n\t\n1\n\n\nHaddad Residence — water heater diagnostic\n\t\nOn hold\n\t\n2026-09-01\n\t\n\t\n1\n\n\nAlcosta Warehouse — rodent monitoring service\n\t\nIn progress\n\t\n2026-09-01\n\t\n\t\n1\n\n\nNguyen Residence — weekly pool service\n\t\nDispatched\n\t\n2026-09-02\n\t\nNguyen Residence\n\t\n1\n\n\nQA HOLD — window collision test (#3876) — Mike Chen\n\t\nCancelled\n\t\n2026-09-22\n\t\nChen Residence\n\t\n1\n\n1–6of6results\n\n10\n/ page\n1\n\nThere are 9 jobs with Mike Chen assigned. 3 dispatched, 1 in progress, 1 on hold, 2 awaiting payment and 2 cancelled. Here are 6 of 9:\n\nClubhouse pool service — Canyon Lakes: dispatched, Mon, Sep 21, 8 AM\nWeekly Residential Pool Maintenance Estimate · Visit 3/53: dispatched, Tue, Sep 29, 1:45 AM\nHaddad Residence — water heater diagnostic: on hold, Tue, Sep 1, 8 AM\nAlcosta Warehouse — rodent monitoring service: in progress, Tue, Sep 1, 9 AM\nNguyen Residence — weekly pool service: dispatched, Wed, Sep 2, 11 AM\nQA HOLD — window collision test (#3876) — Mike Chen: cancelled, Tue, Sep 22, 9 AM\n\nSay \"show me the rest\" for the next 3.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 6,
+    "first": [
+     "Clubhouse pool service — Canyon Lakes Dispatched 2026-09-21 Canyon Lakes Clubhouse Pool 1",
+     "Weekly Residential Pool Maintenance Estimate · Visit 3/53 Dispatched 2026-09-29 Petrova Residence 1",
+     "Haddad Residence — water heater diagnostic On hold 2026-09-01 1"
+    ]
+   }
+  ]
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "which jobs is Mike Chen assigned to?",
+  "secs": 14,
+  "reply": "Jobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nClubhouse pool service — Canyon Lakes\n\t\nDispatched\n\t\n2026-09-21\n\t\nCanyon Lakes Clubhouse Pool\n\t\n1\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 3/53\n\t\nDispatched\n\t\n2026-09-29\n\t\nPetrova Residence\n\t\n1\n\n\nHaddad Residence — water heater diagnostic\n\t\nOn hold\n\t\n2026-09-01\n\t\n\t\n1\n\n\nAlcosta Warehouse — rodent monitoring service\n\t\nIn progress\n\t\n2026-09-01\n\t\n\t\n1\n\n\nNguyen Residence — weekly pool service\n\t\nDispatched\n\t\n2026-09-02\n\t\nNguyen Residence\n\t\n1\n\n\nQA HOLD — window collision test (#3876) — Mike Chen\n\t\nCancelled\n\t\n2026-09-22\n\t\nChen Residence\n\t\n1\n\n1–6of6results\n\n10\n/ page\n1\n\nThere are 9 jobs with Mike Chen assigned. 3 dispatched, 1 in progress, 1 on hold, 2 awaiting payment and 2 cancelled. Here are 6 of 9:\n\nClubhouse pool service — Canyon Lakes: dispatched, Mon, Sep 21, 8 AM\nWeekly Residential Pool Maintenance Estimate · Visit 3/53: dispatched, Tue, Sep 29, 1:45 AM\nHaddad Residence — water heater diagnostic: on hold, Tue, Sep 1, 8 AM\nAlcosta Warehouse — rodent monitoring service: in progress, Tue, Sep 1, 9 AM\nNguyen Residence — weekly pool service: dispatched, Wed, Sep 2, 11 AM\nQA HOLD — window collision test (#3876) — Mike Chen: cancelled, Tue, Sep 22, 9 AM\n\nSay \"show me the rest\" for the next 3.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 6,
+    "first": [
+     "Clubhouse pool service — Canyon Lakes Dispatched 2026-09-21 Canyon Lakes Clubhouse Pool 1",
+     "Weekly Residential Pool Maintenance Estimate · Visit 3/53 Dispatched 2026-09-29 Petrova Residence 1",
+     "Haddad Residence — water heater diagnostic On hold 2026-09-01 1"
+    ]
+   }
+  ]
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "what jobs does Samir Haddad have?",
+  "secs": 14,
+  "reply": "customer\n\nSamir Haddad\n\nView Record\nPhone\n+19255550115\nEmail\nsamir.haddad@example.com\nAddress\n3419 Bollinger Canyon Rd, San Ramon, CA, 94582\nStatus\nACTIVE\n\nJobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 53/53\n\t\nScheduled\n\t\n2027-09-14\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 52/53\n\t\nScheduled\n\t\n2027-09-07\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 51/53\n\t\nScheduled\n\t\n2027-08-31\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 50/53\n\t\nScheduled\n\t\n2027-08-24\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 49/53\n\t\nScheduled\n\t\n2027-08-17\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 48/53\n\t\nScheduled\n\t\n2027-08-10\n\t\nHaddad Residence\n\t\n0\n\n1–6of6results\n\n10\n/ page\n1\n\nThere are 55 jobs for Samir Haddad. 53 scheduled, 1 on hold and 1 done. Here are 6 of 55:\n\nWeekly Residential Pool Maintenance Estimate · Visit 53/53: scheduled, Tue, Sep 14, 9 AM\nWeekly Residential Pool Maintenance Estimate · Visit 52/53: scheduled, Tue, Sep 7, 9 AM\nWeekly Residential Pool Maintenance Estimate · Visit 51/53: scheduled, Tue, Aug 31, 9 AM\nWeekly Residential Pool Maintenance Estimate · Visit 50/53: scheduled, Tue, Aug 24, 9 AM\nWeekly Residential Pool Maintenance Estimate · Visit 49/53: scheduled, Tue, Aug 17, 9 AM\nWeekly Residential Pool Maintenance Estimate · Visit 48/53: scheduled, Tue, Aug 10, 9 AM\n\nSay \"show me the rest\" for the next 6.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 6,
+    "first": [
+     "Weekly Residential Pool Maintenance Estimate · Visit 53/53 Scheduled 2027-09-14 Haddad Residence 0",
+     "Weekly Residential Pool Maintenance Estimate · Visit 52/53 Scheduled 2027-09-07 Haddad Residence 0",
+     "Weekly Residential Pool Maintenance Estimate · Visit 51/53 Scheduled 2027-08-31 Haddad Residence 0"
+    ]
+   }
+  ]
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "list my customers in Austin",
+  "secs": 14,
+  "reply": "Customers in Austin\n\nCustomer\n\tAddress\n\tPhone\n\n\nQA QBO03 Verified\n\t\n1 QA Test Street\n\t\n+15125550303\n\n\nQA2838 DepositTest\n\t\n100 Congress Ave\n\t\n+15125550138\n\n\nQA3355 T1 NoEmail\n\t\n1 QA Test Street\n\t\n+15125553356\n\n\nQA3355 T1 PayLink\n\t\n1 QA Test Street\n\t\n+15125553355\n\n\nQA3486 T1 Arrival\n\t\n1 QA Test Street\n\t\n+15125553486\n\n\nQA4086 ItemType\n\t\n100 Congress Ave\n\t\n+15125554086\n\n\nQA4535 CardTest\n\t\n1 QA Test St\n\t\n+19255554535\n\n\nQA4645 Edit1021\n\t\n410 Edited Ave\n\t\n+15125550121\n\n\nQA5475 Leave Day\n\t\n1 QA Test Street\n\t\n+15125555475\n\n\nQA5591 W2A\n\t\n1 QA Test Street\n\t\n+15125555591\n\n1–10of31results\n\n10\n/ page\n1\n2\n3\n4\n\nYou have 31 customers in Austin. Here are 6 of 31:\n\nQA QBO03 Verified, 1 QA Test Street\nQA2838 DepositTest, 100 Congress Ave\nQA3355 T1 NoEmail, 1 QA Test Street\nQA3355 T1 PayLink, 1 QA Test Street\nQA3486 T1 Arrival, 1 QA Test Street\nQA4086 ItemType, 100 Congress Ave\n\nThe table below has all 31.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Address | Phone",
+    "rows": 10,
+    "first": [
+     "QA QBO03 Verified 1 QA Test Street +15125550303",
+     "QA2838 DepositTest 100 Congress Ave +15125550138",
+     "QA3355 T1 NoEmail 1 QA Test Street +15125553356"
+    ]
+   }
+  ]
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "show me jobs for samir hadad",
+  "secs": 14,
+  "reply": "customer\n\nSamir Haddad\n\nView Record\nPhone\n+19255550115\nEmail\nsamir.haddad@example.com\nAddress\n3419 Bollinger Canyon Rd, San Ramon, CA, 94582\nStatus\nACTIVE\n\nJobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 53/53\n\t\nScheduled\n\t\n2027-09-14\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 52/53\n\t\nScheduled\n\t\n2027-09-07\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 51/53\n\t\nScheduled\n\t\n2027-08-31\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 50/53\n\t\nScheduled\n\t\n2027-08-24\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 49/53\n\t\nScheduled\n\t\n2027-08-17\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 48/53\n\t\nScheduled\n\t\n2027-08-10\n\t\nHaddad Residence\n\t\n0\n\n1–6of6results\n\n10\n/ page\n1\n\nThere are 55 jobs for Samir Haddad. 53 scheduled, 1 on hold and 1 done. Here are 6 of 55:\n\nWeekly Residential Pool Maintenance Estimate · Visit 53/53: scheduled, Tue, Sep 14, 9 AM\nWeekly Residential Pool Maintenance Estimate · Visit 52/53: scheduled, Tue, Sep 7, 9 AM\nWeekly Residential Pool Maintenance Estimate · Visit 51/53: scheduled, Tue, Aug 31, 9 AM\nWeekly Residential Pool Maintenance Estimate · Visit 50/53: scheduled, Tue, Aug 24, 9 AM\nWeekly Residential Pool Maintenance Estimate · Visit 49/53: scheduled, Tue, Aug 17, 9 AM\nWeekly Residential Pool Maintenance Estimate · Visit 48/53: scheduled, Tue, Aug 10, 9 AM\n\nSay \"show me the rest\" for the next 6.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 6,
+    "first": [
+     "Weekly Residential Pool Maintenance Estimate · Visit 53/53 Scheduled 2027-09-14 Haddad Residence 0",
+     "Weekly Residential Pool Maintenance Estimate · Visit 52/53 Scheduled 2027-09-07 Haddad Residence 0",
+     "Weekly Residential Pool Maintenance Estimate · Visit 51/53 Scheduled 2027-08-31 Haddad Residence 0"
+    ]
+   }
+  ]
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "what jobs are scheduled for November 5?",
+  "secs": 14,
+  "reply": "Jobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nFP fixture — visit 3 of 3\n\t\nScheduled\n\t\n2026-11-05\n\t\nHome\n\t\n0\n\n\nQA5098 US suite probe B - DELETE · Visit 4\n\t\nScheduled\n\t\n2026-11-05\n\t\nQA5098 Suite Site - DELETE\n\t\n0\n\n\nWeekly pool service — Delgado Residence · Visit 7\n\t\nScheduled\n\t\n2026-11-05\n\t\nDelgado Residence\n\t\n0\n\n\nWeekly pool service — Sutherland Residence · Visit 7\n\t\nScheduled\n\t\n2026-11-05\n\t\nSutherland Residence\n\t\n0\n\n\nWeekly pool service — Moreau Residence · Visit 7\n\t\nScheduled\n\t\n2026-11-05\n\t\nMoreau Residence\n\t\n0\n\n\nWeekly pool service — Whitfield Residence · Visit 7\n\t\nScheduled\n\t\n2026-11-05\n\t\nWhitfield Residence\n\t\n0\n\n1–6of6results\n\n10\n/ page\n1\n\nThere are 13 jobs scheduled for Thursday, November 5, 2026. Here are 6 of 13:\n\nFP fixture — visit 3 of 3: scheduled, Thu, Nov 5, 9 AM\nQA5098 US suite probe B - DELETE · Visit 4: scheduled, Thu, Nov 5, 8 AM\nWeekly pool service — Delgado Residence · Visit 7: scheduled, Thu, Nov 5, 2:45 PM\nWeekly pool service — Sutherland Residence · Visit 7: scheduled, Thu, Nov 5, 2 PM\nWeekly pool service — Moreau Residence · Visit 7: scheduled, Thu, Nov 5, 1:15 PM\nWeekly pool service — Whitfield Residence · Visit 7: scheduled, Thu, Nov 5, 12:30 PM\n\nSay \"show me the rest\" for the next 6.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 6,
+    "first": [
+     "FP fixture — visit 3 of 3 Scheduled 2026-11-05 Home 0",
+     "QA5098 US suite probe B - DELETE · Visit 4 Scheduled 2026-11-05 QA5098 Suite Site - DELETE 0",
+     "Weekly pool service — Delgado Residence · Visit 7 Scheduled 2026-11-05 Delgado Residence 0"
+    ]
+   }
+  ]
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "show me the rest",
+  "secs": 14,
+  "reply": "\" for the next 1.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Details",
+    "rows": 6,
+    "first": [
+     "Weekly pool service — Brennan Residence · Visit 7 scheduled, Thu, Nov 5, 11:45 AM",
+     "Weekly pool service — Pemberton Residence · Visit 7 scheduled, Thu, Nov 5, 11 AM",
+     "Weekly pool service — Harper Residence · Visit 7 scheduled, Thu, Nov 5, 10:15 AM"
+    ]
+   }
+  ]
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "did the haddad water heater install get done?",
+  "secs": 14,
+  "reply": "I couldn't find a job named \"Haddad water heater install.\" If you have more details or another name for the job, I can look it up again.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "did the haddad water heater install get done?",
+  "secs": 14,
+  "reply": "customer\n\nSamir Haddad\n\nView Record\nPhone\n+19255550115\nEmail\nsamir.haddad@example.com\nAddress\n3419 Bollinger Canyon Rd, San Ramon, CA, 94582\nStatus\nACTIVE\n\nJobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nHaddad Residence — 50gal Water Heater Install\n\t\nDone\n\t\n2026-08-26\n\t\n3419 Bollinger Canyon Rd\n\t\n1\n\n1–1of1results\n\n10\n/ page\n1\n\nYes: \"Haddad Residence — 50gal Water Heater Install\" for Samir Haddad is done (Wed, Aug 26, 11 AM).\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 1,
+    "first": [
+     "Haddad Residence — 50gal Water Heater Install Done 2026-08-26 3419 Bollinger Canyon Rd 1"
+    ]
+   }
+  ]
+ }
+]
