@@ -1,0 +1,9 @@
+#5832 sweep read, AI Reviewer (shilpar+aireviewer), GET /v1/support/ai-reviews/verdicts?from=2026-10-29&to=2026-10-29&agent=otto, read 2026-10-29 05:35:51Z
+
+rows: 1175 (scored 995, skipped 180)
+runs: 235 -> non-skipped (count toward the cap): 199 runs, 199 distinct sessions; skipped: 36 runs, all skip_reason no_tool_record
+first run 00:02:49Z, last non-skipped run 01:07:49Z, last row of any kind 01:07:50Z -> no new run in the 4 h 28 min since (cap spent)
+axis rows per scored run: 5 for all 199 (grounded, honest_writes, right_proposal, honest_gaps, answered)
+judge_model: gpt-4o-2024-08-06 on all; rubric v2 on all; tokens on every scored row
+oldest first: graded conversations created 2026-10-10 11:16Z .. 2026-10-15 15:28Z; in run order, 3 of 198 steps graded a slightly newer conversation before an older one (sessions are claimed 20 per tick)
+verdicts: pass 768, fail 227 (all 227 with a note), see #5831's read for the per-axis counts
