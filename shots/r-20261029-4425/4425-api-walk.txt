@@ -1,0 +1,56 @@
+>>> POST /v1/tenants/office-locations {"name":"QA4425 North depot","address":{"address_street":"5700 Legacy Dr","address_city":"Plano","address_state":"Texas","address_zip":"75024","address_country":"US"},"latitude":33.0198,"longitude":-96.6989}
+201 {"office_id":"01a18674-b221-7445-9a54-4b3c1eafb8a5","tenant_id":2608181,"name":"QA4425 North depot","address":{"address_zip":"75024","address_city":"Plano","address_state":"Texas","address_street":"5700 Legacy Dr","address_country":"US"},"latitude":33.0198,"longitude":-96.6989,"is_default":false,"created_at":"2026-10-29T06:59:17.153Z","updated_at":"2026-10-29T06:59:17.153Z"}
+
+>>> POST /v1/users {"first_name":"QA4425","last_name":"Profile Store","email_id":"qa.darby.test+4425t@gmail.com","role_id":"01a013b0-68cb-7000-9e5f-dab03d23cf99","user_type":"TECHNICIAN","teams":["01a013b0-6928-7000-9e5f-f96f1b38a23a"]}
+201 {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","tenant_id":2608181,"first_name":"QA4425","last_name":"Profile Store","email_id":"qa.darby.test+4425t@gmail.com","phone_no":null,"role_id":"01a013b0-68cb-7000-9e5f-dab03d23cf99","role_name":"Technician","last_login_at":null,"created_at":"2026-10-29T06:59:17.964Z","updated_at":"2026-10-29T06:59:17.964Z","user_auth_id":"0f5e0a33-4ce0-4feb-9009-dbddec511bab","user_type":"TECHNICIAN","is_driver":false,"title":null}
+
+>>> GET /v1/users/01a18674-b4ff-7445-9a54-57097d039cd4
+200 {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","tenant_id":2608181,"first_name":"QA4425","last_name":"Profile Store","email_id":"qa.darby.test+4425t@gmail.com","phone_no":null,"role_id":"01a013b0-68cb-7000-9e5f-dab03d23cf99","role_name":"Technician","user_auth_id":"0f5e0a33-4ce0-4feb-9009-dbddec511bab","user_type":"TECHNICIAN","default_labor_rate_id":null,"default_labor_rate_name":null,"team_ids":["01a013b0-6928-7000-9e5f-f96f1b38a23a"],"last_login_at":null,"created_at":"2026-10-29T06:59:17.964Z","updated_at":"2026-10-29T06:59:17.964Z","created_by":"01a013b0-68ce-7000-9e5f-e5fc710f09bb","cr
+
+>>> PUT /v1/users/update {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","day_start_kind":"home","day_end_kind":"office","office_id":"01a18674-b221-7445-9a54-4b3c1eafb8a5","lunch":{"earliest_start":"12:00","latest_end":"14:00","minutes":30},"home_address":{"address_street":"1 Garland Home Rd","address_city":"Garland","address_state":"Texas","address_zip":"75040","address_country":"US","latitude":32.9126,"longitude":-96.6389}}
+200 {"statusCode":200,"message":"User updated successfully","timestamp":"2026-10-29T06:59:18.455Z"}
+
+>>> GET /v1/users/01a18674-b4ff-7445-9a54-57097d039cd4
+200 {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","tenant_id":2608181,"first_name":"QA4425","last_name":"Profile Store","email_id":"qa.darby.test+4425t@gmail.com","phone_no":null,"role_id":"01a013b0-68cb-7000-9e5f-dab03d23cf99","role_name":"Technician","user_auth_id":"0f5e0a33-4ce0-4feb-9009-dbddec511bab","user_type":"TECHNICIAN","default_labor_rate_id":null,"default_labor_rate_name":null,"team_ids":["01a013b0-6928-7000-9e5f-f96f1b38a23a"],"last_login_at":null,"created_at":"2026-10-29T06:59:17.964Z","updated_at":"2026-10-29T06:59:18.449Z","created_by":"01a013b0-68ce-7000-9e5f-e5fc710f09bb","cr
+
+>>> POST /v1/users/search {"page":0,"size":5,"query":"QA4425"}
+200 {"results":[{"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","tenant_id":2608181,"first_name":"QA4425","last_name":"Profile Store","email_id":"qa.darby.test+4425t@gmail.com","phone_no":null,"role_id":"01a013b0-68cb-7000-9e5f-dab03d23cf99","role_name":"Technician","user_auth_id":"0f5e0a33-4ce0-4feb-9009-dbddec511bab","user_type":"TECHNICIAN","default_labor_rate_id":null,"default_labor_rate_name":null,"team_ids":["01a013b0-6928-7000-9e5f-f96f1b38a23a"],"last_login_at":null,"created_at":"2026-10-29T06:59:17.964Z","updated_at":"2026-10-29T06:59:18.449Z","created_by":"01a013b0-68ce-7000-9e5f-e5fc7
+
+>>> PUT /v1/users/update {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","home_address":{"address_street":"1 Garland Home Rd","address_city":"Garland","address_state":"Texas","address_zip":"75040","address_country":"US","latitude":999,"longitude":"abc"}}
+200 {"statusCode":200,"message":"User updated successfully","timestamp":"2026-10-29T06:59:19.188Z"}
+
+>>> GET /v1/users/01a18674-b4ff-7445-9a54-57097d039cd4
+200 {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","tenant_id":2608181,"first_name":"QA4425","last_name":"Profile Store","email_id":"qa.darby.test+4425t@gmail.com","phone_no":null,"role_id":"01a013b0-68cb-7000-9e5f-dab03d23cf99","role_name":"Technician","user_auth_id":"0f5e0a33-4ce0-4feb-9009-dbddec511bab","user_type":"TECHNICIAN","default_labor_rate_id":null,"default_labor_rate_name":null,"team_ids":["01a013b0-6928-7000-9e5f-f96f1b38a23a"],"last_login_at":null,"created_at":"2026-10-29T06:59:17.964Z","updated_at":"2026-10-29T06:59:19.184Z","created_by":"01a013b0-68ce-7000-9e5f-e5fc710f09bb","cr
+
+>>> PUT /v1/users/update {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","home_address":{"address_street":"1 Garland Home Rd","address_city":"Garland","address_state":"Texas","address_zip":"75040","address_country":"US","latitude":32.9126,"longitude":-96.6389}}
+200 {"statusCode":200,"message":"User updated successfully","timestamp":"2026-10-29T06:59:19.665Z"}
+
+>>> PUT /v1/users/update {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","lunch":{"earliest_start":"14:00","latest_end":"12:00","minutes":30}}
+400 {"statusCode":400,"message":"lunch.earliest_start must be before lunch.latest_end","errorCode":"BAD_REQUEST","timestamp":"2026-10-29T06:59:19.903Z","path":"/v1/users/update","trace_id":"…"}
+
+>>> PUT /v1/users/update {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","lunch":{"earliest_start":"12:00","latest_end":"12:20","minutes":30}}
+400 {"statusCode":400,"message":"lunch.minutes must not be longer than the lunch window","errorCode":"BAD_REQUEST","timestamp":"2026-10-29T06:59:20.140Z","path":"/v1/users/update","trace_id":"…"}
+
+>>> PUT /v1/users/update {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","lunch":{"earliest_start":"12:00","minutes":30}}
+400 {"statusCode":400,"message":"lunch.latest_end is required when a lunch is set","errorCode":"BAD_REQUEST","timestamp":"2026-10-29T06:59:20.382Z","path":"/v1/users/update","trace_id":"…"}
+
+>>> GET /v1/users/01a18674-b4ff-7445-9a54-57097d039cd4
+200 {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","tenant_id":2608181,"first_name":"QA4425","last_name":"Profile Store","email_id":"qa.darby.test+4425t@gmail.com","phone_no":null,"role_id":"01a013b0-68cb-7000-9e5f-dab03d23cf99","role_name":"Technician","user_auth_id":"0f5e0a33-4ce0-4feb-9009-dbddec511bab","user_type":"TECHNICIAN","default_labor_rate_id":null,"default_labor_rate_name":null,"team_ids":["01a013b0-6928-7000-9e5f-f96f1b38a23a"],"last_login_at":null,"created_at":"2026-10-29T06:59:17.964Z","updated_at":"2026-10-29T06:59:19.662Z","created_by":"01a013b0-68ce-7000-9e5f-e5fc710f09bb","cr
+
+>>> GET /v1/users/01a18674-b4ff-7445-9a54-57097d039cd4
+200 {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","tenant_id":2608181,"first_name":"QA4425","last_name":"Profile Store","email_id":"qa.darby.test+4425t@gmail.com","phone_no":null,"role_id":"01a013b0-68cb-7000-9e5f-dab03d23cf99","role_name":"Technician","user_auth_id":"0f5e0a33-4ce0-4feb-9009-dbddec511bab","user_type":"TECHNICIAN","default_labor_rate_id":null,"default_labor_rate_name":null,"team_ids":["01a013b0-6928-7000-9e5f-f96f1b38a23a"],"last_login_at":null,"created_at":"2026-10-29T06:59:17.964Z","updated_at":"2026-10-29T06:59:19.662Z","created_by":"01a013b0-68ce-7000-9e5f-e5fc710f09bb","cr
+
+>>> POST /v1/users/search {"page":0,"size":200,"user_types":["TECHNICIAN"]}
+200 {"results":[{"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","tenant_id":2608181,"first_name":"QA4425","last_name":"Profile Store","email_id":"qa.darby.test+4425t@gmail.com","phone_no":null,"role_id":"01a013b0-68cb-7000-9e5f-dab03d23cf99","role_name":"Technician","user_auth_id":"0f5e0a33-4ce0-4feb-9009-dbddec511bab","user_type":"TECHNICIAN","default_labor_rate_id":null,"default_labor_rate_name":null,"team_ids":["01a013b0-6928-7000-9e5f-f96f1b38a23a"],"last_login_at":null,"created_at":"2026-10-29T06:59:17.964Z","updated_at":"2026-10-29T06:59:19.662Z","created_by":"01a013b0-68ce-7000-9e5f-e5fc7
+
+>>> GET /v1/tenants/office-locations
+200 {"results":[{"office_id":"01a0238d-2adb-7222-b124-7cfbe56cd4b6","tenant_id":2608181,"name":"Acme Dallas HQ","address":{"address_zip":"75202","address_city":"Dallas","address_unit":"Suite 400","address_state":"Texas","address_street":"1200 Main Street","address_country":"US"},"latitude":32.77985011526431,"longitude":-96.80125289259034,"is_default":true,"created_at":"2026-08-21T09:00:49.244Z","updated_at":"2026-09-28T13:15:27.876Z","technician_count":0},{"office_id":"01a18674-b221-7445-9a54-4b3c1eafb8a5","tenant_id":2608181,"name":"QA4425 North depot","address":{"address_zip":"75024","address_ci
+
+>>> DELETE /v1/tenants/office-locations/01a18674-b221-7445-9a54-4b3c1eafb8a5
+200 
+
+>>> GET /v1/users/01a18674-b4ff-7445-9a54-57097d039cd4
+200 {"user_id":"01a18674-b4ff-7445-9a54-57097d039cd4","tenant_id":2608181,"first_name":"QA4425","last_name":"Profile Store","email_id":"qa.darby.test+4425t@gmail.com","phone_no":null,"role_id":"01a013b0-68cb-7000-9e5f-dab03d23cf99","role_name":"Technician","user_auth_id":"0f5e0a33-4ce0-4feb-9009-dbddec511bab","user_type":"TECHNICIAN","default_labor_rate_id":null,"default_labor_rate_name":null,"team_ids":["01a013b0-6928-7000-9e5f-f96f1b38a23a"],"last_login_at":null,"created_at":"2026-10-29T06:59:17.964Z","updated_at":"2026-10-29T06:59:19.662Z","created_by":"01a013b0-68ce-7000-9e5f-e5fc710f09bb","cr
+
+>>> GET /v1/tenants/office-locations
+200 {"results":[{"office_id":"01a0238d-2adb-7222-b124-7cfbe56cd4b6","tenant_id":2608181,"name":"Acme Dallas HQ","address":{"address_zip":"75202","address_city":"Dallas","address_unit":"Suite 400","address_state":"Texas","address_street":"1200 Main Street","address_country":"US"},"latitude":32.77985011526431,"longitude":-96.80125289259034,"is_default":true,"created_at":"2026-08-21T09:00:49.244Z","updated_at":"2026-09-28T13:15:27.876Z","technician_count":0}],"total":1}
