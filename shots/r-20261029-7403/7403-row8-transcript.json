@@ -1,0 +1,14 @@
+[
+ {
+  "q": "did mike finish the thing at the johnsons?",
+  "secs": 153,
+  "reply": "I couldn't find a customer called \"Johnson.\" If you have more details, like a different name or address, I can try looking it up again.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "send them all a reminder",
+  "secs": 14,
+  "reply": "There's no earlier list in this chat for me to work from — I can show you what needs you today, who owes you money, or today's board.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ }
+]
