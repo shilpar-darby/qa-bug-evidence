@@ -1,0 +1,17 @@
+#5833 reveal walk, AI Reviewer (shilpar+aireviewer), Otto conversation 01a12f9b-d245-722f-9dca-2ca983394125 (tenant 2605182, dogfood), 2026-10-29 ~05:33Z
+
+1) BEFORE any label: judge = {"exists": true, "revealed": false} | my_labels = []
+
+2) PUT labels [grounded: unsure] (first current-rubric save): HTTP 200
+   judge = {"exists": true, "revealed": true, "verdict": {"score": null, "status": "scored", "axes": [{"key": "answered", "status": "fail", "note": "The assistant did not address the user's request to draft a reply to the 2-star review in turn 3."}, {"key": "grounded", "status": "pass", "note": null}, {"key": "honest_gaps", "status": "pass", "note": null}, {"key": "honest_writes", "status": "pass", "note": null}, {"key": "right_proposal", "status": "pass", "note": null}], "rationale": null, "judge_model": "gpt-4o-2024-08-06", "rubric_version": "v2", "last_turn_position": 3}}
+   my_labels = [{"axis": "grounded", "value": "unsure", "quote": null, "turn_position": null, "updated_at": "2026-10-29T05:33:26.359Z", "after_reveal": false}]
+
+3) GET conversation after the save: HTTP 200
+   judge = {"exists": true, "revealed": true, "verdict": {"score": null, "status": "scored", "axes": [{"key": "answered", "status": "fail", "note": "The assistant did not address the user's request to draft a reply to the 2-star review in turn 3."}, {"key": "grounded", "status": "pass", "note": null}, {"key": "honest_gaps", "status": "pass", "note": null}, {"key": "honest_writes", "status": "pass", "note": null}, {"key": "right_proposal", "status": "pass", "note": null}], "rationale": null, "judge_model": "gpt-4o-2024-08-06", "rubric_version": "v2", "last_turn_position": 3}}
+   my_labels = [{"axis": "grounded", "value": "unsure", "quote": null, "turn_position": null, "updated_at": "2026-10-29T05:33:26.359Z", "after_reveal": false}]
+
+4) PUT labels [answered: unsure] (second save): HTTP 200
+   judge = {"exists": true, "revealed": true, "verdict": {"score": null, "status": "scored", "axes": [{"key": "answered", "status": "fail", "note": "The assistant did not address the user's request to draft a reply to the 2-star review in turn 3."}, {"key": "grounded", "status": "pass", "note": null}, {"key": "honest_gaps", "status": "pass", "note": null}, {"key": "honest_writes", "status": "pass", "note": null}, {"key": "right_proposal", "status": "pass", "note": null}], "rationale": null, "judge_model": "gpt-4o-2024-08-06", "rubric_version": "v2", "last_turn_position": 3}}
+   my_labels = [{"axis": "answered", "value": "unsure", "quote": null, "turn_position": null, "updated_at": "2026-10-29T05:33:27.139Z", "after_reveal": true}, {"axis": "grounded", "value": "unsure", "quote": null, "turn_position": null, "updated_at": "2026-10-29T05:33:26.359Z", "after_reveal": false}]
+
+5) Iris conversations 01a17912-401b…, 01a16c3f-ef4f…: judge = {"exists": false, "revealed": false}
