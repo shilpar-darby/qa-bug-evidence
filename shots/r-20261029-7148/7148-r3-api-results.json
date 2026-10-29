@@ -1,0 +1,206 @@
+{
+ "A sheet alone": null,
+ "B schedule then names": {
+  "uploads": [
+   "sched:201",
+   "names:201"
+  ],
+  "route": {
+   "n": 2,
+   "st": {
+    "New": 2
+   },
+   "reasons": {}
+  },
+  "job": {
+   "n": 1,
+   "st": {
+    "New": 1
+   },
+   "reasons": {}
+  }
+ },
+ "C sheet then names": {
+  "uploads": [
+   "sheet:201",
+   "names:201"
+  ],
+  "job": {
+   "n": 12,
+   "st": {
+    "New": 12
+   },
+   "reasons": {}
+  }
+ },
+ "D sheet twice then names": {
+  "uploads": [
+   "sheet:201",
+   "sheet:201",
+   "names:201"
+  ],
+  "job": {
+   "n": 24,
+   "st": {
+    "New": 12,
+    "Can't import": 12
+   },
+   "reasons": {
+    "Same route and stop number as row N": 12
+   }
+  }
+ },
+ "E schedule, names, schedule again": {
+  "uploads": [
+   "sched:201",
+   "names:201",
+   "sched:201"
+  ],
+  "route": {
+   "n": 4,
+   "st": {
+    "New": 2,
+    "Can't import": 2
+   },
+   "reasons": {
+    "Same customer and schedule as row N": 2
+   }
+  },
+  "job": {
+   "n": 2,
+   "st": {
+    "New": 1,
+    "Can't import": 1
+   },
+   "reasons": {
+    "Same customer and schedule as row N": 1
+   }
+  }
+ },
+ "F schedule twice then names": {
+  "uploads": [
+   "sched:201",
+   "sched:201",
+   "names:201"
+  ],
+  "route": {
+   "n": 4,
+   "st": {
+    "New": 2,
+    "Can't import": 2
+   },
+   "reasons": {
+    "Same customer and schedule as row N": 2
+   }
+  },
+  "job": {
+   "n": 2,
+   "st": {
+    "New": 1,
+    "Can't import": 1
+   },
+   "reasons": {
+    "Same customer and schedule as row N": 1
+   }
+  }
+ },
+ "G names then schedule twice": {
+  "uploads": [
+   "names:201",
+   "sched:201",
+   "sched:201"
+  ],
+  "route": {
+   "n": 4,
+   "st": {
+    "New": 2,
+    "Can't import": 2
+   },
+   "reasons": {
+    "Same customer and schedule as row N": 2
+   }
+  },
+  "job": {
+   "n": 2,
+   "st": {
+    "New": 1,
+    "Can't import": 1
+   },
+   "reasons": {
+    "Same customer and schedule as row N": 1
+   }
+  }
+ },
+ "H FR routes then FR customers": {
+  "uploads": [
+   "frr:201",
+   "frc:201"
+  ],
+  "job": {
+   "n": 16,
+   "st": {
+    "New": 12,
+    "Can't import": 3,
+    "Skipped": 1
+   },
+   "reasons": {
+    "Choose a job type for this file": 3,
+    "Skipped: inactive in FieldRoutes": 1
+   }
+  },
+  "route": {
+   "n": 26,
+   "st": {
+    "New": 22,
+    "Can't import": 3,
+    "Skipped": 1
+   },
+   "reasons": {
+    "Customer not found": 3,
+    "Skipped: inactive in FieldRoutes": 1
+   }
+  }
+ },
+ "I FR customers then routes (TC-17)": {
+  "uploads": [
+   "frc:201",
+   "frr:201"
+  ],
+  "route": {
+   "n": 26,
+   "st": {
+    "New": 22,
+    "Can't import": 3,
+    "Skipped": 1
+   },
+   "reasons": {
+    "Customer not found": 3,
+    "Skipped: inactive in FieldRoutes": 1
+   }
+  },
+  "job": {
+   "n": 16,
+   "st": {
+    "Can't import": 3,
+    "Skipped": 1,
+    "New": 12
+   },
+   "reasons": {
+    "Choose a job type for this file": 3,
+    "Skipped: inactive in FieldRoutes": 1
+   }
+  },
+  "customer": {
+   "n": 30,
+   "st": {
+    "Decide": 21,
+    "Can't import": 3,
+    "New": 6
+   },
+   "reasons": {
+    "Same phone number as an existing customer": 21,
+    "First name is required": 3
+   }
+  }
+ }
+}
