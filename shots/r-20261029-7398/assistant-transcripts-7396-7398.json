@@ -1,0 +1,118 @@
+[
+ {
+  "q": "show me custmers in austin with an open estimate",
+  "secs": 14,
+  "reply": "Customers with an estimate waiting\n\nCustomer\n\tEstimate\n\tTotal\n\tSent\n\n\nQA5591 W2A\n\t\n01387\n\t\n$0.00\n\t\nOct 16\n\n\nQA5591 W2B\n\t\n01388\n\t\n$0.00\n\t\nOct 16\n\n\nQA5594 W2C\n\t\n01389\n\t\n$0.00\n\t\nOct 16\n\n\nQA6436 EstimateEmail\n\t\n01358, 01376\n\t\n$1,763.13\n\t\nOct 15\n\n\nQA7053 Unreadable\n\t\n01709\n\t\n$22.00\n\t\nOct 23\n\n\nZZ Gmail Estimate Walk\n\t\n01714\n\t\n$23.82\n\t\nOct 24\n\n\nZZVerify R8NoPhone\n\t\n01722\n\t\n$0.00\n\t\nOct 26\n\n\nZZWalk NoPhoneCustomer\n\t\n01720\n\t\n$26.04\n\t\nOct 26\n\n\nZZWalk PhoneCustomer\n\t\n01719\n\t\n$23.82\n\t\nOct 26\n\n1–9of9results\n\n10\n/ page\n1\n\n9 customers in Austin have an estimate waiting on an answer:\n\nQA5591 W2A: estimate 01387 (QA5594 W2A NoConsent estimate), $0.00, sent Oct 16\nQA5591 W2B: estimate 01388 (QA5594 W2B OptedOut estimate), $0.00, sent Oct 16\nQA5594 W2C: estimate 01389 (QA5594 W2C Consent estimate), $0.00, sent Oct 16\nQA6436 EstimateEmail: 2 estimates (01358, 01376), $1,763.13 in all\nQA7053 Unreadable: estimate 01709 (QA5594 row7 follow-up), $22.00, sent Oct 23\nZZ Gmail Estimate Walk: estimate 01714 (UX walk - customer view test (delete me)), $23.82, sent Oct 24\nZZVerify R8NoPhone: estimate 01722 (ZZVerify r8 sent845), $0.00, sent Oct 26\nZZWalk NoPhoneCustomer: estimate 01720 (ZZ walk nophone estimate), $26.04, sent Oct 26\nZZWalk PhoneCustomer: estimate 01719 (ZZ walk phone estimate), $23.82, sent Oct 26\n\nI can draft a follow-up for any of them for you to approve; just say which one.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Estimate | Total | Sent",
+    "rows": 9,
+    "first": [
+     "QA5591 W2A 01387 $0.00 Oct 16",
+     "QA5591 W2B 01388 $0.00 Oct 16",
+     "QA5594 W2C 01389 $0.00 Oct 16"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "show me custmers in austin with an open estimate",
+  "secs": 14,
+  "reply": "Customers with an estimate waiting\n\nCustomer\n\tEstimate\n\tTotal\n\tSent\n\n\nQA5591 W2A\n\t\n01387\n\t\n$0.00\n\t\nOct 16\n\n\nQA5591 W2B\n\t\n01388\n\t\n$0.00\n\t\nOct 16\n\n\nQA5594 W2C\n\t\n01389\n\t\n$0.00\n\t\nOct 16\n\n\nQA6436 EstimateEmail\n\t\n01358, 01376\n\t\n$1,763.13\n\t\nOct 15\n\n\nQA7053 Unreadable\n\t\n01709\n\t\n$22.00\n\t\nOct 23\n\n\nZZ Gmail Estimate Walk\n\t\n01714\n\t\n$23.82\n\t\nOct 24\n\n\nZZVerify R8NoPhone\n\t\n01722\n\t\n$0.00\n\t\nOct 26\n\n\nZZWalk NoPhoneCustomer\n\t\n01720\n\t\n$26.04\n\t\nOct 26\n\n\nZZWalk PhoneCustomer\n\t\n01719\n\t\n$23.82\n\t\nOct 26\n\n1–9of9results\n\n10\n/ page\n1\n\n9 customers in Austin have an estimate waiting on an answer:\n\nQA5591 W2A: estimate 01387 (QA5594 W2A NoConsent estimate), $0.00, sent Oct 16\nQA5591 W2B: estimate 01388 (QA5594 W2B OptedOut estimate), $0.00, sent Oct 16\nQA5594 W2C: estimate 01389 (QA5594 W2C Consent estimate), $0.00, sent Oct 16\nQA6436 EstimateEmail: 2 estimates (01358, 01376), $1,763.13 in all\nQA7053 Unreadable: estimate 01709 (QA5594 row7 follow-up), $22.00, sent Oct 23\nZZ Gmail Estimate Walk: estimate 01714 (UX walk - customer view test (delete me)), $23.82, sent Oct 24\nZZVerify R8NoPhone: estimate 01722 (ZZVerify r8 sent845), $0.00, sent Oct 26\nZZWalk NoPhoneCustomer: estimate 01720 (ZZ walk nophone estimate), $26.04, sent Oct 26\nZZWalk PhoneCustomer: estimate 01719 (ZZ walk phone estimate), $23.82, sent Oct 26\n\nI can draft a follow-up for any of them for you to approve; just say which one.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Estimate | Total | Sent",
+    "rows": 9,
+    "first": [
+     "QA5591 W2A 01387 $0.00 Oct 16",
+     "QA5591 W2B 01388 $0.00 Oct 16",
+     "QA5594 W2C 01389 $0.00 Oct 16"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "customers in Reno with an open estimate",
+  "secs": 14,
+  "reply": "No customer in Reno has an estimate waiting on an answer.\n\nI can list every estimate still waiting on an answer, wherever the customer is.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "did mike finish the thing at the johnsons?",
+  "secs": 14,
+  "reply": "I couldn't find a customer called \"Johnson.\" If there's another name they might be under, I can check again.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "did mike finish the thing at the johnsons?",
+  "secs": 14,
+  "reply": "I couldn't find a customer called \"Johnson,\" so I couldn't check if Mike finished the job there. If there's another name or detail you can provide, I can look again.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "any jobs for a customer called zzyzx?",
+  "secs": 14,
+  "reply": "I could not find a customer called \"zzyzx\". If you have another name or detail to check, let me know.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "any jobs for a customer called zzyzx?",
+  "secs": 14,
+  "reply": "I couldn't find a customer called \"zzyzx.\" If you have another name or detail to check, let me know.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "who owes me money",
+  "secs": 14,
+  "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nZZ-fixture-assistant Consent\n\t\n00129\n\t\n$310.00\n\t\nSep 19\n\t\n40 days\n\n\nZZ-fixture-assistant NoConsent\n\t\n00130\n\t\n$275.00\n\t\nSep 24\n\t\n35 days\n\n\nElena Petrova\n\t\n00010\n\t\n$201.19\n\t\nOct 1\n\t\n28 days\n\n\nTaqueria El Faro\n\t\n00011\n\t\n$309.94\n\t\nOct 1\n\t\n28 days\n\n\nQA6436 EstimateEmail\n\t\n00090\n\t\n$1.00\n\t\nOct 5\n\t\n24 days\n\n\nQA6436 EstimateEmail\n\t\n00089\n\t\n$1.00\n\t\nOct 15\n\t\n14 days\n\n\nQA Maya Caller\n\t\n00091\n\t\n$45.00\n\t\nOct 15\n\t\n14 days\n\n\nQA3355 T1 PayLink\n\t\n00095\n\t\n$1.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00033\n\t\n$14.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00032\n\t\n$13.00\n\t\nOct 16\n\t\n13 days\n\n1–10of37results\n\n10\n/ page\n1\n2\n3\n4\n\n22 customers owe you $4,409.93 on 37 unpaid invoices.\n\nPast due, $1,385.13 on 14 invoices:\n\nZZ-fixture-assistant Consent: $500.00 on 2 invoices (00129, 00131), oldest 40 days past due\nZZ-fixture-assistant NoConsent: $275.00 on invoice 00130, 35 days past due\nTaqueria El Faro: $309.94 on invoice 00011, 28 days past due\nElena Petrova: $201.19 on invoice 00010, 28 days past due\nQA6436 EstimateEmail: $2.00 on 2 invoices (00090, 00089), oldest 24 days past due\nQA Maya Caller: $45.00 on invoice 00091, 14 days past due\nDaniel Reyes: $50.00 on 4 invoices (00033, 00032, 00030, 00031), oldest 13 days past due\nand 2 more customers, $2.00 (every invoice is in the table below)\n\nNot yet due, $3,024.80 on 23 invoices:\n\nMarvin Chen: $1,287.08 on 2 invoices (00052, 00060), due Nov 6\nZZ Gmail Estimate Walk: $427.59 on invoice 00123, due Nov 23\nQA4353 QBO Check: $383.74 on invoice 00071, due Nov 11\nand 14 more customers, $926.39 (every invoice is in the table below)\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Invoice | Owed | Due | Past due",
+    "rows": 10,
+    "first": [
+     "ZZ-fixture-assistant Consent 00129 $310.00 Sep 19 40 days",
+     "ZZ-fixture-assistant NoConsent 00130 $275.00 Sep 24 35 days",
+     "Elena Petrova 00010 $201.19 Oct 1 28 days"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "who owes me money",
+  "secs": 14,
+  "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nZZ-fixture-assistant Consent\n\t\n00129\n\t\n$310.00\n\t\nSep 19\n\t\n40 days\n\n\nZZ-fixture-assistant NoConsent\n\t\n00130\n\t\n$275.00\n\t\nSep 24\n\t\n35 days\n\n\nElena Petrova\n\t\n00010\n\t\n$201.19\n\t\nOct 1\n\t\n28 days\n\n\nTaqueria El Faro\n\t\n00011\n\t\n$309.94\n\t\nOct 1\n\t\n28 days\n\n\nQA6436 EstimateEmail\n\t\n00090\n\t\n$1.00\n\t\nOct 5\n\t\n24 days\n\n\nQA6436 EstimateEmail\n\t\n00089\n\t\n$1.00\n\t\nOct 15\n\t\n14 days\n\n\nQA Maya Caller\n\t\n00091\n\t\n$45.00\n\t\nOct 15\n\t\n14 days\n\n\nQA3355 T1 PayLink\n\t\n00095\n\t\n$1.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00033\n\t\n$14.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00032\n\t\n$13.00\n\t\nOct 16\n\t\n13 days\n\n1–10of37results\n\n10\n/ page\n1\n2\n3\n4\n\n22 customers owe you $4,409.93 on 37 unpaid invoices.\n\nPast due, $1,385.13 on 14 invoices:\n\nZZ-fixture-assistant Consent: $500.00 on 2 invoices (00129, 00131), oldest 40 days past due\nZZ-fixture-assistant NoConsent: $275.00 on invoice 00130, 35 days past due\nTaqueria El Faro: $309.94 on invoice 00011, 28 days past due\nElena Petrova: $201.19 on invoice 00010, 28 days past due\nQA6436 EstimateEmail: $2.00 on 2 invoices (00090, 00089), oldest 24 days past due\nQA Maya Caller: $45.00 on invoice 00091, 14 days past due\nDaniel Reyes: $50.00 on 4 invoices (00033, 00032, 00030, 00031), oldest 13 days past due\nand 2 more customers, $2.00 (every invoice is in the table below)\n\nNot yet due, $3,024.80 on 23 invoices:\n\nMarvin Chen: $1,287.08 on 2 invoices (00052, 00060), due Nov 6\nZZ Gmail Estimate Walk: $427.59 on invoice 00123, due Nov 23\nQA4353 QBO Check: $383.74 on invoice 00071, due Nov 11\nand 14 more customers, $926.39 (every invoice is in the table below)\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Invoice | Owed | Due | Past due",
+    "rows": 10,
+    "first": [
+     "ZZ-fixture-assistant Consent 00129 $310.00 Sep 19 40 days",
+     "ZZ-fixture-assistant NoConsent 00130 $275.00 Sep 24 35 days",
+     "Elena Petrova 00010 $201.19 Oct 1 28 days"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "which invoices are past due",
+  "secs": 14,
+  "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nZZ-fixture-assistant Consent\n\t\n00129\n\t\n$310.00\n\t\nSep 19\n\t\n40 days\n\n\nZZ-fixture-assistant NoConsent\n\t\n00130\n\t\n$275.00\n\t\nSep 24\n\t\n35 days\n\n\nElena Petrova\n\t\n00010\n\t\n$201.19\n\t\nOct 1\n\t\n28 days\n\n\nTaqueria El Faro\n\t\n00011\n\t\n$309.94\n\t\nOct 1\n\t\n28 days\n\n\nQA6436 EstimateEmail\n\t\n00090\n\t\n$1.00\n\t\nOct 5\n\t\n24 days\n\n\nQA6436 EstimateEmail\n\t\n00089\n\t\n$1.00\n\t\nOct 15\n\t\n14 days\n\n\nQA Maya Caller\n\t\n00091\n\t\n$45.00\n\t\nOct 15\n\t\n14 days\n\n\nQA3355 T1 PayLink\n\t\n00095\n\t\n$1.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00033\n\t\n$14.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00032\n\t\n$13.00\n\t\nOct 16\n\t\n13 days\n\n1–10of14results\n\n10\n/ page\n1\n2\n\n9 customers are past due, $1,385.13 on 14 invoices:\n\nZZ-fixture-assistant Consent: $500.00 on 2 invoices (00129, 00131), oldest 40 days past due\nZZ-fixture-assistant NoConsent: $275.00 on invoice 00130, 35 days past due\nTaqueria El Faro: $309.94 on invoice 00011, 28 days past due\nElena Petrova: $201.19 on invoice 00010, 28 days past due\nQA6436 EstimateEmail: $2.00 on 2 invoices (00090, 00089), oldest 24 days past due\nQA Maya Caller: $45.00 on invoice 00091, 14 days past due\nDaniel Reyes: $50.00 on 4 invoices (00033, 00032, 00030, 00031), oldest 13 days past due\nQA3355 T1 PayLink: $1.00 on invoice 00095, 13 days past due\nQA3355 T1 NoEmail: $1.00 on invoice 00096, 13 days past due\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Invoice | Owed | Due | Past due",
+    "rows": 10,
+    "first": [
+     "ZZ-fixture-assistant Consent 00129 $310.00 Sep 19 40 days",
+     "ZZ-fixture-assistant NoConsent 00130 $275.00 Sep 24 35 days",
+     "Elena Petrova 00010 $201.19 Oct 1 28 days"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "what needs me today?",
+  "secs": 14,
+  "reply": "Five things need you:\n\nHaddad Residence — 50gal Water Heater Install for Samir Haddad is done but not invoiced, $2,718.75.\nKim Residence — HVAC Diagnostic + Seasonal Tune-Up for Grace Kim is done but not invoiced, $345.82.\nInvoice 00129 for ZZ-fixture-assistant Consent is overdue, $310.00.\nInvoice 00011 for Taqueria El Faro is overdue, $309.94.\nAkteena #36 has not reported in over 24 hours. And 66 more on your Today tab.\n\nDue in the next seven days:\n\nRight to cancel on Estimate 01724 for ZZVerify R8NoPhone, Thu, Oct 29\nRight to cancel on Estimate 01729 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01730 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01731 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01732 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01733 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\n\n6 vehicles have sent no check engine reading. 14 vehicles have sent no battery reading.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ }
+]
