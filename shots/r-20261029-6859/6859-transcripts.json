@@ -1,0 +1,205 @@
+{
+ "c1a": [
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "What needs me today?",
+   "secs": 14,
+   "reply": "Five things need you:\n\nHaddad Residence — 50gal Water Heater Install for Samir Haddad is done but not invoiced, $2,718.75.\nKim Residence — HVAC Diagnostic + Seasonal Tune-Up for Grace Kim is done but not invoiced, $345.82.\nInvoice 00129 for ZZ-fixture-assistant Consent is overdue, $310.00.\nInvoice 00011 for Taqueria El Faro is overdue, $309.94.\nAkteena #36 has not reported in over 24 hours. And 66 more on your Today tab.\n\nDue in the next seven days:\n\nRight to cancel on Estimate 01724 for ZZVerify R8NoPhone, Thu, Oct 29\nRight to cancel on Estimate 01729 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01730 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01731 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01732 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01733 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\n\n6 vehicles have sent no check engine reading. 14 vehicles have sent no battery reading.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  },
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "which of those is the most urgent?",
+   "secs": 14,
+   "reply": "The most urgent is Haddad Residence — 50gal Water Heater Install for Samir Haddad is done but not invoiced: it is the most money on that list, $2,718.75 and it has been open since Sep 1.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  },
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "who's the customer on that one?",
+   "secs": 14,
+   "reply": "The customer on Haddad Residence — 50gal Water Heater Install for Samir Haddad is done but not invoiced is Samir Haddad.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  },
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "text them that we're running 20 min late",
+   "secs": 14,
+   "reply": "I can't text Samir Haddad today: they haven't agreed to texts from you. Nothing was drafted.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  }
+ ],
+ "c1b": [
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "who's the customer on that one?",
+   "secs": 14,
+   "reply": "There's no earlier list in this chat for me to work from — I can show you what needs you today, who owes you money, or today's board.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  },
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "which of those is the most urgent?",
+   "secs": 14,
+   "reply": "There's no earlier list in this chat for me to work from — I can show you what needs you today, who owes you money, or today's board.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  }
+ ],
+ "c1c": [
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "who owes me money",
+   "secs": 14,
+   "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nZZ-fixture-assistant Consent\n\t\n00129\n\t\n$310.00\n\t\nSep 19\n\t\n40 days\n\n\nZZ-fixture-assistant NoConsent\n\t\n00130\n\t\n$275.00\n\t\nSep 24\n\t\n35 days\n\n\nElena Petrova\n\t\n00010\n\t\n$201.19\n\t\nOct 1\n\t\n28 days\n\n\nTaqueria El Faro\n\t\n00011\n\t\n$309.94\n\t\nOct 1\n\t\n28 days\n\n\nQA6436 EstimateEmail\n\t\n00090\n\t\n$1.00\n\t\nOct 5\n\t\n24 days\n\n\nQA6436 EstimateEmail\n\t\n00089\n\t\n$1.00\n\t\nOct 15\n\t\n14 days\n\n\nQA Maya Caller\n\t\n00091\n\t\n$45.00\n\t\nOct 15\n\t\n14 days\n\n\nQA3355 T1 PayLink\n\t\n00095\n\t\n$1.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00033\n\t\n$14.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00032\n\t\n$13.00\n\t\nOct 16\n\t\n13 days\n\n1–10of37results\n\n10\n/ page\n1\n2\n3\n4\n\n22 customers owe you $4,409.93 on 37 unpaid invoices.\n\nPast due, $1,385.13 on 14 invoices:\n\nZZ-fixture-assistant Consent: $500.00 on 2 invoices (00129, 00131), oldest 40 days past due\nZZ-fixture-assistant NoConsent: $275.00 on invoice 00130, 35 days past due\nTaqueria El Faro: $309.94 on invoice 00011, 28 days past due\nElena Petrova: $201.19 on invoice 00010, 28 days past due\nQA6436 EstimateEmail: $2.00 on 2 invoices (00090, 00089), oldest 24 days past due\nQA Maya Caller: $45.00 on invoice 00091, 14 days past due\nDaniel Reyes: $50.00 on 4 invoices (00033, 00032, 00030, 00031), oldest 13 days past due\nand 2 more customers, $2.00 (every invoice is in the table below)\n\nNot yet due, $3,024.80 on 23 invoices:\n\nMarvin Chen: $1,287.08 on 2 invoices (00052, 00060), due Nov 6\nZZ Gmail Estimate Walk: $427.59 on invoice 00123, due Nov 23\nQA4353 QBO Check: $383.74 on invoice 00071, due Nov 11\nand 14 more customers, $926.39 (every invoice is in the table below)\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": [
+    {
+     "head": "Customer | Invoice | Owed | Due | Past due",
+     "rows": 10,
+     "first": [
+      "ZZ-fixture-assistant Consent 00129 $310.00 Sep 19 40 days",
+      "ZZ-fixture-assistant NoConsent 00130 $275.00 Sep 24 35 days",
+      "Elena Petrova 00010 $201.19 Oct 1 28 days"
+     ]
+    }
+   ]
+  },
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "ok just the ones over 30 days",
+   "secs": 14,
+   "reply": "Money owed — over 30 days past due\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nZZ-fixture-assistant Consent\n\t\n00129\n\t\n$310.00\n\t\nSep 19\n\t\n40 days\n\n\nZZ-fixture-assistant NoConsent\n\t\n00130\n\t\n$275.00\n\t\nSep 24\n\t\n35 days\n\n1–2of2results\n\n10\n/ page\n1\n\n2 invoices of the 37 I showed you are over 30 days past due, $585.00 from 2 customers:\n\nZZ-fixture-assistant Consent: $310.00 on invoice 00129, 40 days past due\nZZ-fixture-assistant NoConsent: $275.00 on invoice 00130, 35 days past due\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": [
+    {
+     "head": "Customer | Invoice | Owed | Due | Past due",
+     "rows": 2,
+     "first": [
+      "ZZ-fixture-assistant Consent 00129 $310.00 Sep 19 40 days",
+      "ZZ-fixture-assistant NoConsent 00130 $275.00 Sep 24 35 days"
+     ]
+    }
+   ]
+  },
+  {
+   "approveBtns": 2,
+   "cardText": [],
+   "q": "send them all a reminder",
+   "secs": 14,
+   "reply": "Approval required\n\nFollow Up on Overdue Invoices (1)\n\nZZ-fixture-assistant Consent\n\n00129\n·$310.00\n·40 days\n·Text\n\nMessage\nReject\nSend 1 Follow-Up\n\nI drafted reminders for 1 customer on one card — one row each. Nothing is sent until you approve it. Left out 1 customer with no texting consent and no email: ZZ-fixture-assistant NoConsent.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  }
+ ],
+ "c1d": [
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "What needs me today?",
+   "secs": 14,
+   "reply": "Five things need you:\n\nHaddad Residence — 50gal Water Heater Install for Samir Haddad is done but not invoiced, $2,718.75.\nKim Residence — HVAC Diagnostic + Seasonal Tune-Up for Grace Kim is done but not invoiced, $345.82.\nInvoice 00129 for ZZ-fixture-assistant Consent is overdue, $310.00.\nInvoice 00011 for Taqueria El Faro is overdue, $309.94.\nAkteena #36 has not reported in over 24 hours. And 66 more on your Today tab.\n\nDue in the next seven days:\n\nRight to cancel on Estimate 01724 for ZZVerify R8NoPhone, Thu, Oct 29\nRight to cancel on Estimate 01729 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01730 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01731 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01732 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01733 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\n\n6 vehicles have sent no check engine reading. 14 vehicles have sent no battery reading.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  },
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "Anything else due this week?",
+   "secs": 14,
+   "reply": "Also due this week (Thu Oct 29 – Sun Nov 1), not in what I already showed you:\n\nInvoice 00114 for QA4968 NoThread, $1.00, due Thu Oct 29\nInvoice 00122 for QA7053 Unreadable, $1.00, due Fri Oct 30\nInvoice 00132 for ZZ-fixture-assistant Consent, $230.00, due Sat Oct 31\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  },
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "and next week?",
+   "secs": 14,
+   "reply": "Also due next week (Mon Nov 2 – Sun Nov 8), not in what I already showed you:\n\nInvoice 00133 for ZZ-fixture-assistant NoConsent, $260.00, due Wed Nov 4\nInvoice 00052 for Marvin Chen, $99.00, due Fri Nov 6\nInvoice 00060 for Marvin Chen, $1,188.08, due Fri Nov 6\nCPO expires Nov 7, 2026, Fri Nov 6\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  }
+ ],
+ "c1e": [
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "who owes me money",
+   "secs": 14,
+   "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nZZ-fixture-assistant Consent\n\t\n00129\n\t\n$310.00\n\t\nSep 19\n\t\n40 days\n\n\nZZ-fixture-assistant NoConsent\n\t\n00130\n\t\n$275.00\n\t\nSep 24\n\t\n35 days\n\n\nElena Petrova\n\t\n00010\n\t\n$201.19\n\t\nOct 1\n\t\n28 days\n\n\nTaqueria El Faro\n\t\n00011\n\t\n$309.94\n\t\nOct 1\n\t\n28 days\n\n\nQA6436 EstimateEmail\n\t\n00090\n\t\n$1.00\n\t\nOct 5\n\t\n24 days\n\n\nQA6436 EstimateEmail\n\t\n00089\n\t\n$1.00\n\t\nOct 15\n\t\n14 days\n\n\nQA Maya Caller\n\t\n00091\n\t\n$45.00\n\t\nOct 15\n\t\n14 days\n\n\nQA3355 T1 PayLink\n\t\n00095\n\t\n$1.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00033\n\t\n$14.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00032\n\t\n$13.00\n\t\nOct 16\n\t\n13 days\n\n1–10of37results\n\n10\n/ page\n1\n2\n3\n4\n\n22 customers owe you $4,409.93 on 37 unpaid invoices.\n\nPast due, $1,385.13 on 14 invoices:\n\nZZ-fixture-assistant Consent: $500.00 on 2 invoices (00129, 00131), oldest 40 days past due\nZZ-fixture-assistant NoConsent: $275.00 on invoice 00130, 35 days past due\nTaqueria El Faro: $309.94 on invoice 00011, 28 days past due\nElena Petrova: $201.19 on invoice 00010, 28 days past due\nQA6436 EstimateEmail: $2.00 on 2 invoices (00090, 00089), oldest 24 days past due\nQA Maya Caller: $45.00 on invoice 00091, 14 days past due\nDaniel Reyes: $50.00 on 4 invoices (00033, 00032, 00030, 00031), oldest 13 days past due\nand 2 more customers, $2.00 (every invoice is in the table below)\n\nNot yet due, $3,024.80 on 23 invoices:\n\nMarvin Chen: $1,287.08 on 2 invoices (00052, 00060), due Nov 6\nZZ Gmail Estimate Walk: $427.59 on invoice 00123, due Nov 23\nQA4353 QBO Check: $383.74 on invoice 00071, due Nov 11\nand 14 more customers, $926.39 (every invoice is in the table below)\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": [
+    {
+     "head": "Customer | Invoice | Owed | Due | Past due",
+     "rows": 10,
+     "first": [
+      "ZZ-fixture-assistant Consent 00129 $310.00 Sep 19 40 days",
+      "ZZ-fixture-assistant NoConsent 00130 $275.00 Sep 24 35 days",
+      "Elena Petrova 00010 $201.19 Oct 1 28 days"
+     ]
+    }
+   ]
+  },
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "What needs me today?",
+   "secs": 14,
+   "reply": "Five things need you:\n\nHaddad Residence — 50gal Water Heater Install for Samir Haddad is done but not invoiced, $2,718.75.\nKim Residence — HVAC Diagnostic + Seasonal Tune-Up for Grace Kim is done but not invoiced, $345.82.\nInvoice 00129 for ZZ-fixture-assistant Consent is overdue, $310.00.\nInvoice 00011 for Taqueria El Faro is overdue, $309.94.\nAkteena #36 has not reported in over 24 hours. And 66 more on your Today tab.\n\nDue in the next seven days:\n\nRight to cancel on Estimate 01724 for ZZVerify R8NoPhone, Thu, Oct 29\nRight to cancel on Estimate 01729 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01730 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01731 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01732 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\nRight to cancel on Estimate 01733 for ZZ-fixture-assistant Plumbing Customer, Sat, Oct 31\n\n6 vehicles have sent no check engine reading. 14 vehicles have sent no battery reading.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  },
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "which of those is the most urgent?",
+   "secs": 14,
+   "reply": "The most urgent is Haddad Residence — 50gal Water Heater Install for Samir Haddad is done but not invoiced: it is the most money on that list, $2,718.75 and it has been open since Sep 1.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  }
+ ],
+ "c1f": [
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "who owes me money",
+   "secs": 14,
+   "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nZZ-fixture-assistant Consent\n\t\n00129\n\t\n$310.00\n\t\nSep 19\n\t\n40 days\n\n\nZZ-fixture-assistant NoConsent\n\t\n00130\n\t\n$275.00\n\t\nSep 24\n\t\n35 days\n\n\nElena Petrova\n\t\n00010\n\t\n$201.19\n\t\nOct 1\n\t\n28 days\n\n\nTaqueria El Faro\n\t\n00011\n\t\n$309.94\n\t\nOct 1\n\t\n28 days\n\n\nQA6436 EstimateEmail\n\t\n00090\n\t\n$1.00\n\t\nOct 5\n\t\n24 days\n\n\nQA6436 EstimateEmail\n\t\n00089\n\t\n$1.00\n\t\nOct 15\n\t\n14 days\n\n\nQA Maya Caller\n\t\n00091\n\t\n$45.00\n\t\nOct 15\n\t\n14 days\n\n\nQA3355 T1 PayLink\n\t\n00095\n\t\n$1.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00033\n\t\n$14.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00032\n\t\n$13.00\n\t\nOct 16\n\t\n13 days\n\n1–10of37results\n\n10\n/ page\n1\n2\n3\n4\n\n22 customers owe you $4,409.93 on 37 unpaid invoices.\n\nPast due, $1,385.13 on 14 invoices:\n\nZZ-fixture-assistant Consent: $500.00 on 2 invoices (00129, 00131), oldest 40 days past due\nZZ-fixture-assistant NoConsent: $275.00 on invoice 00130, 35 days past due\nTaqueria El Faro: $309.94 on invoice 00011, 28 days past due\nElena Petrova: $201.19 on invoice 00010, 28 days past due\nQA6436 EstimateEmail: $2.00 on 2 invoices (00090, 00089), oldest 24 days past due\nQA Maya Caller: $45.00 on invoice 00091, 14 days past due\nDaniel Reyes: $50.00 on 4 invoices (00033, 00032, 00030, 00031), oldest 13 days past due\nand 2 more customers, $2.00 (every invoice is in the table below)\n\nNot yet due, $3,024.80 on 23 invoices:\n\nMarvin Chen: $1,287.08 on 2 invoices (00052, 00060), due Nov 6\nZZ Gmail Estimate Walk: $427.59 on invoice 00123, due Nov 23\nQA4353 QBO Check: $383.74 on invoice 00071, due Nov 11\nand 14 more customers, $926.39 (every invoice is in the table below)\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": [
+    {
+     "head": "Customer | Invoice | Owed | Due | Past due",
+     "rows": 10,
+     "first": [
+      "ZZ-fixture-assistant Consent 00129 $310.00 Sep 19 40 days",
+      "ZZ-fixture-assistant NoConsent 00130 $275.00 Sep 24 35 days",
+      "Elena Petrova 00010 $201.19 Oct 1 28 days"
+     ]
+    }
+   ]
+  },
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "which of those is the most urgent?",
+   "secs": 14,
+   "reply": "The most urgent is Invoice 00129 for ZZ-fixture-assistant Consent: it is the longest past due on that list, 40 days with $310.00 owed.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  },
+  {
+   "approveBtns": 1,
+   "cardText": [],
+   "q": "who's the customer on that one?",
+   "secs": 14,
+   "reply": "The customer on Invoice 00129 for ZZ-fixture-assistant Consent is ZZ-fixture-assistant Consent.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  },
+  {
+   "approveBtns": 2,
+   "cardText": [],
+   "q": "text them that we're running 20 min late",
+   "secs": 14,
+   "reply": "Approval required\n\nSend text message\n\nHigh risk\n\nSend this text to ZZ-fixture-assistant Consent?\n\nTo\n+15125550201\nMessage\nHi ZZ-fixture-assistant, just a heads-up: we're running about 20 minutes late. Sorry for the wait! – Rani Service Group\nEdit\nReject\nApprove\n\nHere's a text to ZZ-fixture-assistant Consent for you to approve. Nothing is sent until you tap Approve.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+   "tables": []
+  }
+ ]
+}
