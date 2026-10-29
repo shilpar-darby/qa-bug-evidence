@@ -1,0 +1,13 @@
+#4403, Acme 2608181 admin, /dispatch/board (Thu Oct 29) -> Optimize Day; POST /v1/jobs/routing/optimize captured and ABORTED (no solve). 69 technicians, 66 jobs.
+QA4403 Tee Office (start office B, end Home with pin, lunch 12-14/30) {"lat": 33.0198, "lng": -96.6989, "end_lat": 32.9126, "end_lng": -96.6389, "breaks": [{"earliest": "12:00", "latest": "13:30", "duration_in_min": 30}], "shift_start": "08:00", "shift_end": "17:00"}
+QA4403 En Nopin (Home, no pin) {"lat": 32.77985011526431, "lng": -96.80125289259034, "end_lat": 32.77985011526431, "end_lng": -96.80125289259034, "breaks": null, "shift_start": "08:00", "shift_end": "17:00"}
+
+Technicians with a position recorded today (board feed) and their start in the request:
+Dana Whitcomb: recorded 2026-10-29T05:26:55.081Z at 12.9716,77.5945983 -> request start 12.9716,77.5945983
+Jonah Reyes: recorded 2026-10-29T06:15:54.000Z at 37.4219983,-122.084 -> request start 37.4219983,-122.084
+Navanit Tripathi: recorded 2026-10-29T06:37:15.278Z at 12.971904649528751,77.61293602158247 -> request start 12.971904649528751,77.61293602158247
+QA7276 Crew Supervisor: recorded 2026-10-29T05:47:40.560Z at 12.9709737,77.6131781 -> request start 12.9709737,77.6131781
+
+Pre-flight line: "65 technicians start from their workday setting, with no position from today: 65 from an office." Going in: 66 jobs · 69 technicians (69 - 4 with a position today = 65).
+Hover T: "No position on file. Starting from QA4403 North depot."  Hover N: "No position on file. Starting from Acme Dallas HQ."
+Cleanup: both technicians deactivated (404), office deleted.
