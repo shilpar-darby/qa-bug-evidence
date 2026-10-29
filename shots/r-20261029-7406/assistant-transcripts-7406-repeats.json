@@ -1,0 +1,58 @@
+[
+ {
+  "q": "thanks, that's all",
+  "secs": 14,
+  "reply": "You're welcome! If you need anything else, feel free to ask.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "thanks, that's all",
+  "secs": 14,
+  "reply": "You're welcome!\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "what jobs does Samir Haddad have?",
+  "secs": 14,
+  "reply": "customer\n\nSamir Haddad\n\nView Record\nPhone\n+19255550115\nEmail\nsamir.haddad@example.com\nAddress\n3419 Bollinger Canyon Rd, San Ramon, CA, 94582\nStatus\nACTIVE\n\nJobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 53/53\n\t\nScheduled\n\t\n2027-09-14\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 52/53\n\t\nScheduled\n\t\n2027-09-07\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 51/53\n\t\nScheduled\n\t\n2027-08-31\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 50/53\n\t\nScheduled\n\t\n2027-08-24\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 49/53\n\t\nScheduled\n\t\n2027-08-17\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 48/53\n\t\nScheduled\n\t\n2027-08-10\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 47/53\n\t\nScheduled\n\t\n2027-08-03\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 46/53\n\t\nScheduled\n\t\n2027-07-27\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 45/53\n\t\nScheduled\n\t\n2027-07-20\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 44/53\n\t\nScheduled\n\t\n2027-07-13\n\t\nHaddad Residence\n\t\n0\n\n1–10of10results\n\n10\n/ page\n1\n\nSamir Haddad has ten scheduled jobs, all labeled as \"Weekly Residential Pool Maintenance Estimate\" at the Haddad Residence. These jobs are part of a series, with visits ranging from 44/53 to 53/53. No technicians are currently assigned to these jobs.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 10,
+    "first": [
+     "Weekly Residential Pool Maintenance Estimate · Visit 53/53 Scheduled 2027-09-14 Haddad Residence 0",
+     "Weekly Residential Pool Maintenance Estimate · Visit 52/53 Scheduled 2027-09-07 Haddad Residence 0",
+     "Weekly Residential Pool Maintenance Estimate · Visit 51/53 Scheduled 2027-08-31 Haddad Residence 0"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "what jobs does Samir Haddad have?",
+  "secs": 14,
+  "reply": "customer\n\nSamir Haddad\n\nView Record\nPhone\n+19255550115\nEmail\nsamir.haddad@example.com\nAddress\n3419 Bollinger Canyon Rd, San Ramon, CA, 94582\nStatus\nACTIVE\n\nJobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 53/53\n\t\nScheduled\n\t\n2027-09-14\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 52/53\n\t\nScheduled\n\t\n2027-09-07\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 51/53\n\t\nScheduled\n\t\n2027-08-31\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 50/53\n\t\nScheduled\n\t\n2027-08-24\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 49/53\n\t\nScheduled\n\t\n2027-08-17\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 48/53\n\t\nScheduled\n\t\n2027-08-10\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 47/53\n\t\nScheduled\n\t\n2027-08-03\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 46/53\n\t\nScheduled\n\t\n2027-07-27\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 45/53\n\t\nScheduled\n\t\n2027-07-20\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 44/53\n\t\nScheduled\n\t\n2027-07-13\n\t\nHaddad Residence\n\t\n0\n\n1–10of10results\n\n10\n/ page\n1\n\nSamir Haddad has ten scheduled jobs for \"Weekly Residential Pool Maintenance Estimate\" at the Haddad Residence. The visits are numbered 44 through 53, with the latest scheduled for September 14, 2027. None of these jobs currently have technicians assigned.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 10,
+    "first": [
+     "Weekly Residential Pool Maintenance Estimate · Visit 53/53 Scheduled 2027-09-14 Haddad Residence 0",
+     "Weekly Residential Pool Maintenance Estimate · Visit 52/53 Scheduled 2027-09-07 Haddad Residence 0",
+     "Weekly Residential Pool Maintenance Estimate · Visit 51/53 Scheduled 2027-08-31 Haddad Residence 0"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "what can you do?",
+  "secs": 14,
+  "reply": "I can look up customers, jobs, invoices, payments, customer reviews, and business performance. I can also help with overdue invoices, who owes you money, and customers in a city with an estimate waiting. Additionally, I can show today's job board and the pricebook. For changes, I can create or update a customer, add a line to an estimate, or start a new estimate — all for your approval before anything is saved or sent.\n\nFor example, you could ask, \"Who owes us money?\"\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "how do i add a new technician",
+  "secs": 14,
+  "reply": "Go to Settings in the left navigation.\nSelect User from the settings menu.\nClick Add User in the top-right of the page.\nEnter the new user's details: Full name, Email address, Phone number (if required), Role (choose Technician), Type (TECHNICIAN).\nConfirm and submit the form to send the invitation.\nThe new user appears in the user list with a status of Active once they complete the signup or activation step.\n\nSource: Invite a team member\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ }
+]
