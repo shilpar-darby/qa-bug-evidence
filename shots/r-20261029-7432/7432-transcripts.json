@@ -1,0 +1,74 @@
+[
+ {
+  "approveBtns": 2,
+  "cardText": [],
+  "q": "Follow up everyone overdue",
+  "secs": 14,
+  "reply": "Approval required\n\nFollow Up on Overdue Invoices (6)\n\nElena Petrova\n\n00010\n·$201.19\n·Skipped: followed up Oct 28\n\nMessage\n\nTaqueria El Faro\n\n00011\n·$309.94\n·Skipped: followed up Oct 28\n\nMessage\n\nQA6436 EstimateEmail\n\n00090, 00089\n·$2.00\n·24 days\n·Email\n\nMessage\n\nQA Maya Caller\n\n00091\n·$45.00\n·Skipped: followed up Oct 28\n\nMessage\n\nDaniel Reyes\n\n00033, 00032, 00030, 00031\n·$50.00\n·Skipped: followed up Oct 28\n\nMessage\n\nQA3355 T1 PayLink\n\n00095\n·$1.00\n·13 days\n·Email\n\nMessage\nReject\nSend 2 Follow-Ups\n\nThere are 6 customers with overdue invoices on the card, and 2 messages are ready to send. The card has each message. Elena Petrova, Taqueria El Faro, QA6436 EstimateEmail, Daniel Reyes, and QA3355 T1 PayLink have no texting consent on file, so those rows go by email. QA Maya Caller opted out of texts on Oct 24 (asked Maya), so I'll email this follow-up instead. Left out 1 customer with no texting consent and no email: QA3355 T1 NoEmail. The follow-ups are ready for you to approve.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Text Daniel Reyes a payment link for what he owes",
+  "secs": 14,
+  "reply": "Daniel Reyes has 5 open invoices. Here are the invoice numbers with their balances due:\n\nInvoice 00033: $14\nInvoice 00032: $13\nInvoice 00030: $11\nInvoice 00031: $12\nInvoice 00065: $200.73\n\nWhich invoice would you like to send a payment link for?\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 2,
+  "cardText": [],
+  "q": "00065",
+  "secs": 14,
+  "reply": "is ready for you to approve and send by email.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 2,
+  "cardText": [],
+  "q": "Text ZZ-fixture-assistant Consent a payment link for invoice 00129",
+  "secs": 14,
+  "reply": "Approval required\n\nSend Payment Link\n\nHigh risk\n\nInvoice 00129 · ZZ-fixture-assistant Consent\n\nTo\n+15125550201\nAmount\n$310.00 (balance due)\nBy\nText\nMessage\nHi ZZ-fixture-assistant, here's the link to pay invoice 00129 for $310.00: (a payment link, added when this is approved). Thank you, Rani Service Group.\n\nOn approve: ZZ-fixture-assistant Consent gets a text with a payment link.\n\nEdit\nReject\nApprove\n\nA payment link for invoice 00129, with a balance of $310.00, is ready to be sent to ZZ-fixture-assistant Consent. It is waiting for you to approve it.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Text ZZ-fixture-assistant NoConsent a payment link for invoice 00130",
+  "secs": 14,
+  "reply": "I can't text ZZ-fixture-assistant NoConsent: they haven't agreed to texts from you. There's no email on file either, so I can't send the link.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Any reviews to answer?",
+  "secs": 23,
+  "reply": "Approval required\n\nReply to Review\n\n1 of 5 stars\n·Dana Whitfield (QA)\n·Oct 20\n·Rani Service Group - QA North\n\n“Booked the 8-10am window and the technician never showed up. Nobody called to say they were running late, so I took a day off work for nothing.”\nReply\nTry Another\nSkip\nPost Reply\n\n13 Google reviews have no reply:\n\nDana Whitfield (QA) · 1 of 5 stars · Rani Service Group - QA North · Oct 20 \"Booked the 8-10am window and the technician never showed up. Nobody called to say they were running late, so I took a day off work for nothing.\"\nMarcus Reyes (QA) · 2 of 5 stars · Rani Service Group - QA North · Oct 24 \"The AC is cooling again, but the final bill was $90 more than the quote and nobody explained why. The tech also left the old filter and packaging by the side gate.\"\nOwen Fletcher (QA) · 3 of 5 stars · Rani Service Group - QA South · Oct 21 \"The drain was cleared, but the technician arrived without the right camera and had to come back the next day.\"\nPriya Natarajan (QA) · 3 of 5 stars · Rani Service Group - QA North · Oct 18 \"The leak under the sink is fixed, but it took two visits and the second one was rescheduled twice. Friendly people, slow process.\"\nTom Becker (QA) · 4 of 5 stars · Rani Service Group - QA North · Oct 22 \"Water heater replaced in one afternoon. Clean work and a fair price. Only wish the arrival text had come a bit earlier.\"\nAisha Karimi (QA) · 4 of 5 stars · Rani Service Group - QA North · Oct 15 \"Good furnace tune-up and the tech explained what he checked. Scheduling online was easy.\"\nNina Petrova (QA) · 4 of 5 stars · Rani Service Group - QA South · Oct 13 \"Friendly electrician, tidy work on the new outdoor outlets. Price was as quoted.\"\nJordan Ellis (QA) · 5 of 5 stars · Rani Service Group - QA North · Oct 25 \"Same-day service for a broken garbage disposal. On time, quick, and they cleaned up after themselves. Will call again.\"\nLena Hoffmann (QA) · 5 of 5 stars · Rani Service Group - QA North · Oct 11 \"Very professional crew. They found the real cause of our breaker tripping instead of just resetting it.\"\nSam Okafor (QA) · 5 of 5 stars · Rani Service Group - QA North · Oct 8 \"Great experience from booking to invoice. The technician showed me photos of the issue before fixing it.\"\n\n3 more on Google Reviews.\n\nA reply to Dana Whitfield's review is drafted and ready for your approval. Would you like to review or edit it?\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Draft a reply to the lowest-rated one.",
+  "secs": 20,
+  "reply": "Approval required\n\nReply to Review\n\n1 of 5 stars\n·Dana Whitfield (QA)\n·Oct 20\n·Rani Service Group - QA North\n\n“Booked the 8-10am window and the technician never showed up. Nobody called to say they were running late, so I took a day off work for nothing.”\nReply\nTry Another\nSkip\nPost Reply\n\nA reply to Dana Whitfield's review is already drafted and ready for your approval. Would you like to review or edit it?\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Yes.",
+  "secs": 20,
+  "reply": "Approval required\n\nReply to Review\n\n1 of 5 stars\n·Dana Whitfield (QA)\n·Oct 20\n·Rani Service Group - QA North\n\n“Booked the 8-10am window and the technician never showed up. Nobody called to say they were running late, so I took a day off work for nothing.”\nReply\nTry Another\nSkip\nPost Reply\n\nA reply to Dana Whitfield's review is already drafted and ready for your approval. Would you like to review or edit it now?\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Draft a reply to Dana Whitfield's review",
+  "secs": 20,
+  "reply": "Approval required\n\nReply to Review\n\n1 of 5 stars\n·Dana Whitfield (QA)\n·Oct 20\n·Rani Service Group - QA North\n\n“Booked the 8-10am window and the technician never showed up. Nobody called to say they were running late, so I took a day off work for nothing.”\nReply\nTry Another\nSkip\nPost Reply\n\nDana Whitfield left a review on October 20 for Rani Service Group - QA North, giving 1 of 5 stars. She mentioned that the technician did not show up for the 8-10am window and there was no communication about the delay, causing her to take a day off work unnecessarily. A reply to her review is ready for you to approve.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ }
+]

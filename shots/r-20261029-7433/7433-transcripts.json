@@ -1,0 +1,164 @@
+[
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Pull up everything on Navanit Tripathi. What does he owe us?",
+  "secs": 14,
+  "reply": "2 customers are called Navanit Tripathi. Which one do you mean?\n\nNavanit Tripathi, 364 Swagath Road, Bengaluru, Karnataka\nNavanit Tripathi, 350 5th Avenue, New York, NY\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Is that $3,169 only Navanit's? Give me his open invoice numbers and his open jobs.",
+  "secs": 14,
+  "reply": "Which one do you mean? Say its number, its street or its town.\n\nNavanit Tripathi, Navanit Tripathi, 364 Swagath Road, Bengaluru, Karnataka\nNavanit Tripathi, Navanit Tripathi, 350 5th Avenue, New York, NY\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "The Bengaluru one, 364 Swagath Road.",
+  "secs": 14,
+  "reply": "Navanit Tripathi has no unpaid invoices: nothing is owed.\n\nNavanit Tripathi has no open jobs.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Go ahead.",
+  "secs": 14,
+  "reply": "Navanit Tripathi from 364 Swagath Road, Bengaluru, has no unpaid invoices and no open jobs.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Navanit Tripathi in Bengaluru paid $20 cash on his oldest open invoice. Record it.",
+  "secs": 17,
+  "reply": "There are two customers named Navanit Tripathi. Here are the open invoices for each:\n\nNavanit Tripathi:\nInvoice 00206: Balance due $1,283, due 2026-06-25\nInvoice 00241: Balance due $132, due 2026-06-26\nInvoice 00284: Balance due $44, due 2026-07-03\nInvoice 00300: Balance due $840, due 2026-07-03\nInvoice 00044: Balance due $6,657, due 2026-07-04\nInvoice 00137: Balance due $308.37, due 2026-07-18\nInvoice 00138: Balance due $1,774.48, due 2026-07-18\nInvoice 00136: Balance due $438.21, due 2026-07-18\nInvoice 00155: Balance due $400, due 2026-07-20\nInvoice 00157: Balance due $300, due 2026-07-20\nInvoice 00166: Balance due $748.97, due 2026-07-22\nInvoice 00162: Balance due $490, due 2026-07-22\nInvoice 00200: Balance due $4,171.50, due 2026-07-24\nInvoice 00203: Balance due $2,363.50, due 2026-07-24\nInvoice 00226: Balance due $300, due 2026-07-25\nInvoice 00224: Balance due $100, due 2026-07-25\nInvoice 00218: Balance due $300, due 2026-07-25\nInvoice 00229: Balance due $120, due 2026-07-25\nInvoice 00216: Balance due $100, due 2026-07-25\nInvoice 00225: Balance due $120, due 2026-07-25\n\nPlease specify which invoice the $20 payment is for.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 2,
+  "cardText": [],
+  "q": "Invoice 00284.",
+  "secs": 14,
+  "reply": "Approval required\n\nRecord Payment\n\nHigh risk\n\nInvoice 00284 · Navanit Tripathi\n\nPayment\nCash · $20.00\nAfter this\nPartially Paid · $24.00 Left\nEdit\nReject\nApprove\n\nThe $20 cash payment on invoice 00284 for Navanit Tripathi is ready for you to approve. The current balance due on this invoice is $44.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Which invoices are overdue? Show the 5 biggest balances.",
+  "secs": 14,
+  "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nShilpa Jyothii\n\t\n00652\n\t\n$13,495.63\n\t\nOct 25\n\t\n4 days\n\n\nNavanit Tripathi\n\t\n00279\n\t\n$9,421.00\n\t\nAug 8\n\t\n82 days\n\n\nNavanit Tripathi\n\t\n00207\n\t\n$4,171.50\n\t\nJul 25\n\t\n96 days\n\n\nVishal E2E\n\t\n00075\n\t\n$3,031.00\n\t\nJul 15\n\t\n106 days\n\n\nNavanit Tripathi\n\t\n00203\n\t\n$2,363.50\n\t\nJul 24\n\t\n97 days\n\n1–5of5results\n\n10\n/ page\n1\n\nThe 5 biggest past-due invoices (of 64), $32,482.63 between them:\n\nShilpa Jyothii: invoice 00652, $13,495.63, 4 days past due\nNavanit Tripathi: invoice 00279, $9,421.00, 82 days past due\nNavanit Tripathi: invoice 00207, $4,171.50, 96 days past due\nVishal E2E: invoice 00075, $3,031.00, 106 days past due\nNavanit Tripathi: invoice 00203, $2,363.50, 97 days past due\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Invoice | Owed | Due | Past due",
+    "rows": 5,
+    "first": [
+     "Shilpa Jyothii 00652 $13,495.63 Oct 25 4 days",
+     "Navanit Tripathi 00279 $9,421.00 Aug 8 82 days",
+     "Navanit Tripathi 00207 $4,171.50 Jul 25 96 days"
+    ]
+   }
+  ]
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "I asked for the 5 biggest overdue invoices by customer. List them.",
+  "secs": 14,
+  "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nShilpa Jyothii\n\t\n00652\n\t\n$13,495.63\n\t\nOct 25\n\t\n4 days\n\n\nNavanit Tripathi\n\t\n00279\n\t\n$9,421.00\n\t\nAug 8\n\t\n82 days\n\n\nNavanit Tripathi\n\t\n00207\n\t\n$4,171.50\n\t\nJul 25\n\t\n96 days\n\n\nVishal E2E\n\t\n00075\n\t\n$3,031.00\n\t\nJul 15\n\t\n106 days\n\n\nNavanit Tripathi\n\t\n00203\n\t\n$2,363.50\n\t\nJul 24\n\t\n97 days\n\n1–5of5results\n\n10\n/ page\n1\n\nThe 5 biggest past-due invoices (of 64), $32,482.63 between them:\n\nShilpa Jyothii: invoice 00652, $13,495.63, 4 days past due\nNavanit Tripathi: invoice 00279, $9,421.00, 82 days past due\nNavanit Tripathi: invoice 00207, $4,171.50, 96 days past due\nVishal E2E: invoice 00075, $3,031.00, 106 days past due\nNavanit Tripathi: invoice 00203, $2,363.50, 97 days past due\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Invoice | Owed | Due | Past due",
+    "rows": 5,
+    "first": [
+     "Shilpa Jyothii 00652 $13,495.63 Oct 25 4 days",
+     "Navanit Tripathi 00279 $9,421.00 Aug 8 82 days",
+     "Navanit Tripathi 00207 $4,171.50 Jul 25 96 days"
+    ]
+   }
+  ]
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Show me the top 3 overdue invoices",
+  "secs": 14,
+  "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nShilpa Jyothii\n\t\n00652\n\t\n$13,495.63\n\t\nOct 25\n\t\n4 days\n\n\nNavanit Tripathi\n\t\n00279\n\t\n$9,421.00\n\t\nAug 8\n\t\n82 days\n\n\nNavanit Tripathi\n\t\n00207\n\t\n$4,171.50\n\t\nJul 25\n\t\n96 days\n\n1–3of3results\n\n10\n/ page\n1\n\nThe 3 biggest past-due invoices (of 64), $27,088.13 between them:\n\nShilpa Jyothii: invoice 00652, $13,495.63, 4 days past due\nNavanit Tripathi: invoice 00279, $9,421.00, 82 days past due\nNavanit Tripathi: invoice 00207, $4,171.50, 96 days past due\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Invoice | Owed | Due | Past due",
+    "rows": 3,
+    "first": [
+     "Shilpa Jyothii 00652 $13,495.63 Oct 25 4 days",
+     "Navanit Tripathi 00279 $9,421.00 Aug 8 82 days",
+     "Navanit Tripathi 00207 $4,171.50 Jul 25 96 days"
+    ]
+   }
+  ]
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "What are my biggest overdue invoices?",
+  "secs": 14,
+  "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nShilpa Jyothii\n\t\n00652\n\t\n$13,495.63\n\t\nOct 25\n\t\n4 days\n\n\nNavanit Tripathi\n\t\n00279\n\t\n$9,421.00\n\t\nAug 8\n\t\n82 days\n\n\nNavanit Tripathi\n\t\n00207\n\t\n$4,171.50\n\t\nJul 25\n\t\n96 days\n\n\nVishal E2E\n\t\n00075\n\t\n$3,031.00\n\t\nJul 15\n\t\n106 days\n\n\nNavanit Tripathi\n\t\n00203\n\t\n$2,363.50\n\t\nJul 24\n\t\n97 days\n\n1–5of5results\n\n10\n/ page\n1\n\nThe 5 biggest past-due invoices (of 64), $32,482.63 between them:\n\nShilpa Jyothii: invoice 00652, $13,495.63, 4 days past due\nNavanit Tripathi: invoice 00279, $9,421.00, 82 days past due\nNavanit Tripathi: invoice 00207, $4,171.50, 96 days past due\nVishal E2E: invoice 00075, $3,031.00, 106 days past due\nNavanit Tripathi: invoice 00203, $2,363.50, 97 days past due\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Invoice | Owed | Due | Past due",
+    "rows": 5,
+    "first": [
+     "Shilpa Jyothii 00652 $13,495.63 Oct 25 4 days",
+     "Navanit Tripathi 00279 $9,421.00 Aug 8 82 days",
+     "Navanit Tripathi 00207 $4,171.50 Jul 25 96 days"
+    ]
+   }
+  ]
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Pull up everything on Navanit Tripathi. What does he owe us?",
+  "secs": 14,
+  "reply": "2 customers are called Navanit Tripathi. Which one do you mean?\n\nNavanit Tripathi, 364 Swagath Road, Bengaluru, Karnataka\nNavanit Tripathi, 350 5th Avenue, New York, NY\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "The New York one, 350 5th Avenue.",
+  "secs": 14,
+  "reply": "Unpaid invoices\n\nInvoice\n\tOwed\n\tDue\n\tPast due\n\n\n00206\n\t\n$1,283.00\n\t\nJun 25\n\t\n126 days\n\n\n00241\n\t\n$132.00\n\t\nJun 26\n\t\n125 days\n\n\n00284\n\t\n$44.00\n\t\nJul 3\n\t\n118 days\n\n\n00300\n\t\n$840.00\n\t\nJul 3\n\t\n118 days\n\n\n00138\n\t\n$1,774.48\n\t\nJul 18\n\t\n103 days\n\n\n00162\n\t\n$490.00\n\t\nJul 22\n\t\n99 days\n\n\n00203\n\t\n$2,363.50\n\t\nJul 24\n\t\n97 days\n\n\n00207\n\t\n$4,171.50\n\t\nJul 25\n\t\n96 days\n\n\n00279\n\t\n$9,421.00\n\t\nAug 8\n\t\n82 days\n\n\n00553\n\t\n$818.37\n\t\nOct 1\n\t\n28 days\n\n1–10of11results\n\n10\n/ page\n1\n2\n\nNavanit Tripathi owes $23,152.25 on 11 unpaid invoices, $23,152.25 of it past due:\n\nInvoice 00206: $1,283.00, 126 days past due\nInvoice 00241: $132.00, 125 days past due\nInvoice 00284: $44.00, 118 days past due\nInvoice 00300: $840.00, 118 days past due\nInvoice 00138: $1,774.48, 103 days past due\nInvoice 00162: $490.00, 99 days past due\nInvoice 00203: $2,363.50, 97 days past due\nInvoice 00207: $4,171.50, 96 days past due\nInvoice 00279: $9,421.00, 82 days past due\nInvoice 00553: $818.37, 28 days past due\nand 1 more (every invoice is in the table below)\n\nOpen jobs (522):\n\nPool Opening & Green Water Recovery – Midtown Amenity Pool · 20260804-145032: scheduled, Aug 4\nQuality Assurance Service Estimate: scheduled, Jul 27\nQuality Assurance Service Estimate for Job A: scheduled, Jul 26\nAC Repair - Navanit Home: on hold, Jul 20\nAC Installation- Navanit House: open, no time yet\nAc Not Cooling - Navanit House: dispatched, Jul 20\nQA nav-after-save test: open, no time yet\nrtrrryryryrty: scheduled, Jan 1\nQA 1198 double-submit test: open, no time yet\nQA 1198 - full-field job test: scheduled, Jul 4\nand 512 more\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Invoice | Owed | Due | Past due",
+    "rows": 10,
+    "first": [
+     "00206 $1,283.00 Jun 25 126 days",
+     "00241 $132.00 Jun 26 125 days",
+     "00284 $44.00 Jul 3 118 days"
+    ]
+   }
+  ]
+ },
+ {
+  "approveBtns": 2,
+  "cardText": [],
+  "q": "QA5360 Surcharge paid $5 cash on the oldest open invoice. Record it.",
+  "secs": 14,
+  "reply": "Approval required\n\nRecord Payment\n\nHigh risk\n\nInvoice 00753 · QA5360 Surcharge\n\nPayment\nCash · $5.00\nAfter this\nPartially Paid · $1.00 Left\nEdit\nReject\nApprove\n\nA $5 cash payment is ready for you to approve on invoice 00753 for QA5360 Surcharge. The remaining balance on this invoice will be $1 after approval.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Navanit Tripathi in New York paid $20 cash on his oldest open invoice. Record it.",
+  "secs": 17,
+  "reply": "Navanit Tripathi in New York has no open invoice to record a payment on. If you need to check something else, let me know.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ }
+]
