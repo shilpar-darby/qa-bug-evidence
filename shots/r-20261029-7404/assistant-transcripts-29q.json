@@ -1,0 +1,307 @@
+[
+ {
+  "q": "hey, how's the day looking?",
+  "secs": 14,
+  "reply": "Unassigned today\n\nTime\n\tCustomer\n\tAddress\n\tJob\n\tLink\n\n\n8 AM\n\t\nQA5098 Probe\n\t\n500 Elm Street Suite 400, Dallas\n\t\nQA5098 US suite probe B - DELETE · Visit 3\n\t\n/jobs/01a11f80-75e7-7445-b452-c73031906f61\n\n1–1of1results\n\n10\n/ page\n1\n\nTaking that as today, Thursday, October 29, 2026: 12 jobs are on the board. 1 job today has no technician. 65 more have no time yet.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Time | Customer | Address | Job | Link",
+    "rows": 1,
+    "first": [
+     "8 AM QA5098 Probe 500 Elm Street Suite 400, Dallas QA5098 US suite probe B - DELETE · Visit 3 /jobs/01a11f80-75e7-7445-b"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "ugh tomorrow's schedule is a mess, can you fix it",
+  "secs": 14,
+  "reply": "Unassigned tomorrow\n\nTime\n\tCustomer\n\tAddress\n\tJob\n\tLink\n\n\n9 AM\n\t\nZZ-fixture-assistant Plumbing Customer\n\t\n2 ZZ Fixture St, San Ramon\n\t\nZZ-fixture-assistant tomorrow unassigned A\n\t\n/jobs/01a18632-a2c3-7ffd-9e19-073266c1cde2\n\n\n11 AM\n\t\nZZ-fixture-assistant Plumbing Customer\n\t\n2 ZZ Fixture St, San Ramon\n\t\nZZ-fixture-assistant tomorrow unassigned B\n\t\n/jobs/01a18632-a9ed-7ffd-9e19-71e6fb6f486c\n\n\n1 PM\n\t\nQA5837 W2\n\t\n1 QA Test Street, Austin\n\t\nService Estimate for QA Testing and Support · Visit 3/53\n\t\n/jobs/01a143c0-5f79-7aa0-8919-f4bbeb566391\n\n1–3of3results\n\n10\n/ page\n1\n\nTomorrow, Friday, October 30, 2026: 3 jobs are on the board. 3 jobs tomorrow have no technician. 65 more have no time yet. I can't rearrange the schedule on my own: tell me which technician should take a job and I'll draft the change for you to approve.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Time | Customer | Address | Job | Link",
+    "rows": 3,
+    "first": [
+     "9 AM ZZ-fixture-assistant Plumbing Customer 2 ZZ Fixture St, San Ramon ZZ-fixture-assistant tomorrow unassigned A /jobs/",
+     "11 AM ZZ-fixture-assistant Plumbing Customer 2 ZZ Fixture St, San Ramon ZZ-fixture-assistant tomorrow unassigned B /jobs",
+     "1 PM QA5837 W2 1 QA Test Street, Austin Service Estimate for QA Testing and Support · Visit 3/53 /jobs/01a143c0-5f79-7aa"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "why is revenue down?",
+  "secs": 14,
+  "reply": "Money Collected · This Month\n\n$2,059\n\nup 269% vs $557\n\nOpen Report\n\nNo period was named, so I compared this month so far (Oct 1 to Oct 29) with the same days last month (Sep 1 to Sep 29).\n\nMoney collected this month so far: $2,058.83, up 269.4% from $557.32 the same days last month. See the Revenue Trend report.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "what's our average job value for plumbing",
+  "secs": 14,
+  "reply": "I can't answer that yet. Try Money Collected or Jobs Completed.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "how many jobs did we complete last week vs the week before",
+  "secs": 14,
+  "reply": "Jobs Completed · Last Week\n\n11\n\ndown 35% vs 17\n\nOpen Report\n\nJobs completed last week: 11, down 35.3% from 17 the week before. See the Jobs Completed report.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "text him we're running late",
+  "secs": 14,
+  "reply": "I need to know who you want to text. Can you provide the name or contact information?\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "whats the weather tomorrow",
+  "secs": 14,
+  "reply": "I can't provide the weather forecast. You might want to check a weather service for tomorrow's forecast.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "did the haddad water heater install get done?",
+  "secs": 14,
+  "reply": "I could not find a customer called \"Haddad water heater install.\" If you have more details, I can help look it up again.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "what jobs are scheduled between November 3 and November 4?",
+  "secs": 14,
+  "reply": "Jobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nFP fixture — visit 2 of 3\n\t\nScheduled\n\t\n2026-11-04\n\t\nHome\n\t\n0\n\n\nFP fixture — visit 1 of 3\n\t\nScheduled\n\t\n2026-11-03\n\t\nHome\n\t\n0\n\n\nD1 1867 AC12 probe 2026-11-03T16:00:00.000Z\n\t\nDispatched\n\t\n2026-11-03\n\t\nBishop Ranch Fitness Club Pool\n\t\n1\n\n\nQA5098 US suite probe A - DELETE · Visit 3\n\t\nScheduled\n\t\n2026-11-03\n\t\nQA5098 Suite Site - DELETE\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 8/53\n\t\nScheduled\n\t\n2026-11-03\n\t\nMcAllister Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 8/53\n\t\nScheduled\n\t\n2026-11-03\n\t\nPetrova Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 8/53\n\t\nScheduled\n\t\n2026-11-03\n\t\nSharma Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 8/53\n\t\nScheduled\n\t\n2026-11-03\n\t\nNguyen Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 8/53\n\t\nScheduled\n\t\n2026-11-03\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 8/53\n\t\nScheduled\n\t\n2026-11-03\n\t\nKim Residence\n\t\n0\n\n1–10of13results\n\n10\n/ page\n1\n2\n\nThere are 13 jobs scheduled between Tuesday, November 3, 2026, and Wednesday, November 4, 2026. Here are a few:\n\n\"FP fixture — visit 2 of 3\" for FP fixture — Three Visits, scheduled on November 4 at Home.\n\"FP fixture — visit 1 of 3\" for FP fixture — Three Visits, scheduled on November 3 at Home.\n\"D1 1867 AC12 probe\" for Bishop Ranch Fitness, dispatched on November 3 at Bishop Ranch Fitness Club Pool.\n\"Commercial Weekly Full Service Estimate · Visit 9/52\" for Windemere HOA, scheduled on November 3 at Windemere Community Pool.\n\nWould you like details on any specific job?\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 10,
+    "first": [
+     "FP fixture — visit 2 of 3 Scheduled 2026-11-04 Home 0",
+     "FP fixture — visit 1 of 3 Scheduled 2026-11-03 Home 0",
+     "D1 1867 AC12 probe 2026-11-03T16:00:00.000Z Dispatched 2026-11-03 Bishop Ranch Fitness Club Pool 1"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "which jobs is Mike Chen assigned to?",
+  "secs": 14,
+  "reply": "I could not find a customer called \"Mike Chen.\" Additionally, 1 job today has no technician, and 65 more have no time yet.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "which jobs are on hold?",
+  "secs": 14,
+  "reply": "Jobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nQA1881 stock toast check 10-16\n\t\nOn hold\n\t\n2026-10-16\n\t\nQA6436 Home\n\t\n0\n\n\nQA4591 t6 Ask job\n\t\nOn hold\n\t\n2026-10-16\n\t\nQA3486 T1 Arrival Home\n\t\n1\n\n\nQA5708 Visit report check B · Visit 2/2\n\t\nOn hold\n\t\n2026-10-21\n\t\nQA5708 Home\n\t\n1\n\n\nHaddad Residence — water heater diagnostic\n\t\nOn hold\n\t\n2026-09-01\n\t\n\t\n1\n\n1–4of4results\n\n10\n/ page\n1\n\nThere are four jobs on hold:\n\nQA1881 stock toast check 10-16 for QA6436 EstimateEmail at QA6436 Home, scheduled on October 16, 2026. No technicians are assigned.\nQA4591 t6 Ask job for QA3486 T1 Arrival at QA3486 T1 Arrival Home, scheduled on October 16, 2026. One technician is assigned.\nQA5708 Visit report check B · Visit 2/2 for QA4535 CardTest at QA5708 Home, scheduled on October 21, 2026. One technician is assigned.\nHaddad Residence — water heater diagnostic for Samir Haddad, scheduled on September 1, 2026. One technician is assigned.\n\nWould you like to look into any of these jobs further?\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 4,
+    "first": [
+     "QA1881 stock toast check 10-16 On hold 2026-10-16 QA6436 Home 0",
+     "QA4591 t6 Ask job On hold 2026-10-16 QA3486 T1 Arrival Home 1",
+     "QA5708 Visit report check B · Visit 2/2 On hold 2026-10-21 QA5708 Home 1"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "what jobs does Samir Haddad have?",
+  "secs": 14,
+  "reply": "customer\n\nSamir Haddad\n\nView Record\nPhone\n+19255550115\nEmail\nsamir.haddad@example.com\nAddress\n3419 Bollinger Canyon Rd, San Ramon, CA, 94582\nStatus\nACTIVE\n\nJobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 53/53\n\t\nScheduled\n\t\n2027-09-14\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 52/53\n\t\nScheduled\n\t\n2027-09-07\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 51/53\n\t\nScheduled\n\t\n2027-08-31\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 50/53\n\t\nScheduled\n\t\n2027-08-24\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 49/53\n\t\nScheduled\n\t\n2027-08-17\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 48/53\n\t\nScheduled\n\t\n2027-08-10\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 47/53\n\t\nScheduled\n\t\n2027-08-03\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 46/53\n\t\nScheduled\n\t\n2027-07-27\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 45/53\n\t\nScheduled\n\t\n2027-07-20\n\t\nHaddad Residence\n\t\n0\n\n\nWeekly Residential Pool Maintenance Estimate · Visit 44/53\n\t\nScheduled\n\t\n2027-07-13\n\t\nHaddad Residence\n\t\n0\n\n1–10of10results\n\n10\n/ page\n1\n\nSamir Haddad has ten scheduled jobs, all labeled as \"Weekly Residential Pool Maintenance Estimate\" with visits ranging from 44/53 to 53/53. No technicians are currently assigned to these jobs.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 10,
+    "first": [
+     "Weekly Residential Pool Maintenance Estimate · Visit 53/53 Scheduled 2027-09-14 Haddad Residence 0",
+     "Weekly Residential Pool Maintenance Estimate · Visit 52/53 Scheduled 2027-09-07 Haddad Residence 0",
+     "Weekly Residential Pool Maintenance Estimate · Visit 51/53 Scheduled 2027-08-31 Haddad Residence 0"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "list my customers in Austin",
+  "secs": 14,
+  "reply": "I can't list customers by city on its own yet, so I can't say who you have in Austin.\n\nI can show the customers in Austin who have an estimate waiting on an answer.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "show me jobs for samir hadad",
+  "secs": 14,
+  "reply": "Could you clarify which specific jobs or time period you're interested in for Samir Hadad?\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "what jobs do we have next week?",
+  "secs": 14,
+  "reply": "Jobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nFP fixture — travel started\n\t\nDispatched\n\t\n2026-11-06\n\t\nHome\n\t\n1\n\n\nFP fixture — visit 3 of 3\n\t\nScheduled\n\t\n2026-11-05\n\t\nHome\n\t\n0\n\n\nFP fixture — visit 2 of 3\n\t\nScheduled\n\t\n2026-11-04\n\t\nHome\n\t\n0\n\n\nFP fixture — visit 1 of 3\n\t\nScheduled\n\t\n2026-11-03\n\t\nHome\n\t\n0\n\n\nQuality Assurance Service Estimate · Visit 3/53\n\t\nScheduled\n\t\n2026-11-02\n\t\nQA5617 W2 M Home\n\t\n0\n\n\nQuality Assurance Service Estimate · Visit 3/53\n\t\nScheduled\n\t\n2026-11-02\n\t\nQA5617 W2 N Home\n\t\n0\n\n\nQuality Assurance Service Estimate · Visit 3/53\n\t\nScheduled\n\t\n2026-11-02\n\t\nQA5617 W2 P Home\n\t\n0\n\n\nQuality Assurance Service Estimate · Visit 3/53\n\t\nScheduled\n\t\n2026-11-02\n\t\nQA5617 W2 H Home\n\t\n0\n\n\nService Estimate for QA Testing and Support · Visit 4/53\n\t\nScheduled\n\t\n2026-11-06\n\t\nQA5837 W2 Home\n\t\n0\n\n\nD1 1867 AC12 probe 2026-11-03T16:00:00.000Z\n\t\nDispatched\n\t\n2026-11-03\n\t\nBishop Ranch Fitness Club Pool\n\t\n1\n\n1–10of25results\n\n10\n/ page\n1\n2\n3\n\nWe have 32 jobs scheduled from Monday, November 2, 2026, to Sunday, November 8, 2026. Here are some of them:\n\n\"FP fixture — travel started\" at Home on November 6, 2026, with 1 technician dispatched.\n\"FP fixture — visit 3 of 3\" at Home on November 5, 2026, with no technicians assigned.\n\"Quality Assurance Service Estimate · Visit 3/53\" at QA5617 W2 M Home on November 2, 2026, with no technicians assigned.\n\"Weekly pool service — Delgado Residence · Visit 7\" at Delgado Residence on November 5, 2026, with no technicians assigned.\n\nI can provide more details or look up specific jobs if needed.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 10,
+    "first": [
+     "FP fixture — travel started Dispatched 2026-11-06 Home 1",
+     "FP fixture — visit 3 of 3 Scheduled 2026-11-05 Home 0",
+     "FP fixture — visit 2 of 3 Scheduled 2026-11-04 Home 0"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "what jobs are scheduled for December 26?",
+  "secs": 14,
+  "reply": "No jobs are scheduled for Saturday, December 26, 2026. I can read today's or tomorrow's board.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "find the customer zzyzx and show me their open estimates",
+  "secs": 14,
+  "reply": "Could you please confirm the exact spelling of the customer name? I couldn't find \"zzyzx\" in the records.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "show me jobs for the Okonkwo family in March",
+  "secs": 14,
+  "reply": "I could not find a customer called \"Okonkwo family\". If you have another name or detail to search by, let me know.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "show me today's jobs",
+  "secs": 17,
+  "reply": "Unassigned today\n\nTime\n\tCustomer\n\tAddress\n\tJob\n\tLink\n\n\n8 AM\n\t\nQA5098 Probe\n\t\n500 Elm Street Suite 400, Dallas\n\t\nQA5098 US suite probe B - DELETE · Visit 3\n\t\n/jobs/01a11f80-75e7-7445-b452-c73031906f61\n\n1–1of1results\n\n10\n/ page\n1\n\nJobs\n\nJob\n\tStatus\n\tScheduled for\n\tSite\n\tTechs\n\n\nQA5098 US suite probe B - DELETE · Visit 3\n\t\nScheduled\n\t\n2026-10-29\n\t\nQA5098 Suite Site - DELETE\n\t\n0\n\n\nWeekly pool service — Delgado Residence · Visit 6\n\t\nScheduled\n\t\n2026-10-29\n\t\nDelgado Residence\n\t\n1\n\n\nWeekly pool service — Sutherland Residence · Visit 6\n\t\nScheduled\n\t\n2026-10-29\n\t\nSutherland Residence\n\t\n1\n\n\nWeekly pool service — Moreau Residence · Visit 6\n\t\nScheduled\n\t\n2026-10-29\n\t\nMoreau Residence\n\t\n1\n\n\nWeekly pool service — Whitfield Residence · Visit 6\n\t\nScheduled\n\t\n2026-10-29\n\t\nWhitfield Residence\n\t\n1\n\n\nWeekly pool service — Brennan Residence · Visit 6\n\t\nScheduled\n\t\n2026-10-29\n\t\nBrennan Residence\n\t\n1\n\n\nWeekly pool service — Pemberton Residence · Visit 6\n\t\nScheduled\n\t\n2026-10-29\n\t\nPemberton Residence\n\t\n1\n\n\nWeekly pool service — Harper Residence · Visit 6\n\t\nScheduled\n\t\n2026-10-29\n\t\nHarper Residence\n\t\n1\n\n\nWeekly pool service — Castellano Residence · Visit 6\n\t\nScheduled\n\t\n2026-10-29\n\t\nCastellano Residence\n\t\n1\n\n\nWeekly pool service — Lindqvist Residence · Visit 6\n\t\nScheduled\n\t\n2026-10-29\n\t\nLindqvist Residence\n\t\n1\n\n1–10of12results\n\n10\n/ page\n1\n2\n\nThere are 12 jobs scheduled for today, Thursday, October 29, 2026. One job has no technician assigned, and 65 more have no time yet. Here are the scheduled jobs:\n\nQA5098 US suite probe B - DELETE · Visit 3 at 8:00 AM, site: 500 Elm Street Suite 400, Dallas, customer: QA5098 Probe, no technician assigned.\nWeekly pool service — Delgado Residence · Visit 6 at 2:45 PM, site: Delgado Residence, customer: Lucia Delgado, 1 technician.\nWeekly pool service — Sutherland Residence · Visit 6 at 2:00 PM, site: Sutherland Residence, customer: Margaret Sutherland, 1 technician.\nWeekly pool service — Moreau Residence · Visit 6 at 1:15 PM, site: Moreau Residence, customer: Claire Moreau, 1 technician.\nWeekly pool service — Whitfield Residence · Visit 6 at 12:30 PM, site: Whitfield Residence, customer: Grant Whitfield, 1 technician.\nWeekly pool service — Brennan Residence · Visit 6 at 11:45 AM, site: Brennan Residence, customer: Siobhan Brennan, 1 technician.\nWeekly pool service — Pemberton Residence · Visit 6 at 11:00 AM, site: Pemberton Residence, customer: Henry Pemberton, 1 technician.\nWeekly pool service — Harper Residence · Visit 6 at 10:15 AM, site: Harper Residence, customer: Olivia Harper, 1 technician.\nWeekly pool service — Castellano Residence · Visit 6 at 9:30 AM, site: Castellano Residence, customer: Rafael Castellano, 1 technician.\nWeekly pool service — Lindqvist Residence · Visit 6 at 8:45 AM, site: Lindqvist Residence, customer: Erik Lindqvist, 1 technician.\nWeekly pool service — Ashworth Residence · Visit 6 at 8:00 AM, site: Ashworth Residence, customer: Thomas Ashworth, 1 technician.\nWeekly pool service — Reyes Residence · Visit 6/1",
+  "tables": [
+   {
+    "head": "Time | Customer | Address | Job | Link",
+    "rows": 1,
+    "first": [
+     "8 AM QA5098 Probe 500 Elm Street Suite 400, Dallas QA5098 US suite probe B - DELETE · Visit 3 /jobs/01a11f80-75e7-7445-b"
+    ]
+   },
+   {
+    "head": "Job | Status | Scheduled for | Site | Techs",
+    "rows": 10,
+    "first": [
+     "QA5098 US suite probe B - DELETE · Visit 3 Scheduled 2026-10-29 QA5098 Suite Site - DELETE 0",
+     "Weekly pool service — Delgado Residence · Visit 6 Scheduled 2026-10-29 Delgado Residence 1",
+     "Weekly pool service — Sutherland Residence · Visit 6 Scheduled 2026-10-29 Sutherland Residence 1"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "how do i add a new technician",
+  "secs": 17,
+  "reply": "Go to Settings in the left navigation.\nSelect User from the settings menu.\nClick Add User in the top-right of the page.\nEnter the new user's details: Full name, Email address, Phone number (if required), Role (choose Technician), Type (TECHNICIAN).\nConfirm and submit the form to send the invitation.\nThe new user appears in the user list with a status of Active once they complete the signup or activation step.\n\nSource: Invite a team member\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "what's unpaid right now",
+  "secs": 14,
+  "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nZZ-fixture-assistant Consent\n\t\n00129\n\t\n$310.00\n\t\nSep 19\n\t\n40 days\n\n\nZZ-fixture-assistant NoConsent\n\t\n00130\n\t\n$275.00\n\t\nSep 24\n\t\n35 days\n\n\nElena Petrova\n\t\n00010\n\t\n$201.19\n\t\nOct 1\n\t\n28 days\n\n\nTaqueria El Faro\n\t\n00011\n\t\n$309.94\n\t\nOct 1\n\t\n28 days\n\n\nQA6436 EstimateEmail\n\t\n00090\n\t\n$1.00\n\t\nOct 5\n\t\n24 days\n\n\nQA6436 EstimateEmail\n\t\n00089\n\t\n$1.00\n\t\nOct 15\n\t\n14 days\n\n\nQA Maya Caller\n\t\n00091\n\t\n$45.00\n\t\nOct 15\n\t\n14 days\n\n\nQA3355 T1 PayLink\n\t\n00095\n\t\n$1.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00033\n\t\n$14.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00032\n\t\n$13.00\n\t\nOct 16\n\t\n13 days\n\n1–10of37results\n\n10\n/ page\n1\n2\n3\n4\n\n22 customers owe you $4,409.93 on 37 unpaid invoices.\n\nPast due, $1,385.13 on 14 invoices:\n\nZZ-fixture-assistant Consent: $500.00 on 2 invoices (00129, 00131), oldest 40 days past due\nZZ-fixture-assistant NoConsent: $275.00 on invoice 00130, 35 days past due\nTaqueria El Faro: $309.94 on invoice 00011, 28 days past due\nElena Petrova: $201.19 on invoice 00010, 28 days past due\nQA6436 EstimateEmail: $2.00 on 2 invoices (00090, 00089), oldest 24 days past due\nQA Maya Caller: $45.00 on invoice 00091, 14 days past due\nDaniel Reyes: $50.00 on 4 invoices (00033, 00032, 00030, 00031), oldest 13 days past due\nand 2 more customers, $2.00 (every invoice is in the table below)\n\nNot yet due, $3,024.80 on 23 invoices:\n\nMarvin Chen: $1,287.08 on 2 invoices (00052, 00060), due Nov 6\nZZ Gmail Estimate Walk: $427.59 on invoice 00123, due Nov 23\nQA4353 QBO Check: $383.74 on invoice 00071, due Nov 11\nand 14 more customers, $926.39 (every invoice is in the table below)\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Invoice | Owed | Due | Past due",
+    "rows": 10,
+    "first": [
+     "ZZ-fixture-assistant Consent 00129 $310.00 Sep 19 40 days",
+     "ZZ-fixture-assistant NoConsent 00130 $275.00 Sep 24 35 days",
+     "Elena Petrova 00010 $201.19 Oct 1 28 days"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "any customers behind on their bill?",
+  "secs": 14,
+  "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nZZ-fixture-assistant Consent\n\t\n00129\n\t\n$310.00\n\t\nSep 19\n\t\n40 days\n\n\nZZ-fixture-assistant NoConsent\n\t\n00130\n\t\n$275.00\n\t\nSep 24\n\t\n35 days\n\n\nElena Petrova\n\t\n00010\n\t\n$201.19\n\t\nOct 1\n\t\n28 days\n\n\nTaqueria El Faro\n\t\n00011\n\t\n$309.94\n\t\nOct 1\n\t\n28 days\n\n\nQA6436 EstimateEmail\n\t\n00090\n\t\n$1.00\n\t\nOct 5\n\t\n24 days\n\n\nQA6436 EstimateEmail\n\t\n00089\n\t\n$1.00\n\t\nOct 15\n\t\n14 days\n\n\nQA Maya Caller\n\t\n00091\n\t\n$45.00\n\t\nOct 15\n\t\n14 days\n\n\nQA3355 T1 PayLink\n\t\n00095\n\t\n$1.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00033\n\t\n$14.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00032\n\t\n$13.00\n\t\nOct 16\n\t\n13 days\n\n1–10of14results\n\n10\n/ page\n1\n2\n\n9 customers are past due, $1,385.13 on 14 invoices:\n\nZZ-fixture-assistant Consent: $500.00 on 2 invoices (00129, 00131), oldest 40 days past due\nZZ-fixture-assistant NoConsent: $275.00 on invoice 00130, 35 days past due\nTaqueria El Faro: $309.94 on invoice 00011, 28 days past due\nElena Petrova: $201.19 on invoice 00010, 28 days past due\nQA6436 EstimateEmail: $2.00 on 2 invoices (00090, 00089), oldest 24 days past due\nQA Maya Caller: $45.00 on invoice 00091, 14 days past due\nDaniel Reyes: $50.00 on 4 invoices (00033, 00032, 00030, 00031), oldest 13 days past due\nQA3355 T1 PayLink: $1.00 on invoice 00095, 13 days past due\nQA3355 T1 NoEmail: $1.00 on invoice 00096, 13 days past due\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Invoice | Owed | Due | Past due",
+    "rows": 10,
+    "first": [
+     "ZZ-fixture-assistant Consent 00129 $310.00 Sep 19 40 days",
+     "ZZ-fixture-assistant NoConsent 00130 $275.00 Sep 24 35 days",
+     "Elena Petrova 00010 $201.19 Oct 1 28 days"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "anyone I should be chasing for payment?",
+  "secs": 14,
+  "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nZZ-fixture-assistant Consent\n\t\n00129\n\t\n$310.00\n\t\nSep 19\n\t\n40 days\n\n\nZZ-fixture-assistant NoConsent\n\t\n00130\n\t\n$275.00\n\t\nSep 24\n\t\n35 days\n\n\nElena Petrova\n\t\n00010\n\t\n$201.19\n\t\nOct 1\n\t\n28 days\n\n\nTaqueria El Faro\n\t\n00011\n\t\n$309.94\n\t\nOct 1\n\t\n28 days\n\n\nQA6436 EstimateEmail\n\t\n00090\n\t\n$1.00\n\t\nOct 5\n\t\n24 days\n\n\nQA6436 EstimateEmail\n\t\n00089\n\t\n$1.00\n\t\nOct 15\n\t\n14 days\n\n\nQA Maya Caller\n\t\n00091\n\t\n$45.00\n\t\nOct 15\n\t\n14 days\n\n\nQA3355 T1 PayLink\n\t\n00095\n\t\n$1.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00033\n\t\n$14.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00032\n\t\n$13.00\n\t\nOct 16\n\t\n13 days\n\n1–10of37results\n\n10\n/ page\n1\n2\n3\n4\n\n22 customers owe you $4,409.93 on 37 unpaid invoices.\n\nPast due, $1,385.13 on 14 invoices:\n\nZZ-fixture-assistant Consent: $500.00 on 2 invoices (00129, 00131), oldest 40 days past due\nZZ-fixture-assistant NoConsent: $275.00 on invoice 00130, 35 days past due\nTaqueria El Faro: $309.94 on invoice 00011, 28 days past due\nElena Petrova: $201.19 on invoice 00010, 28 days past due\nQA6436 EstimateEmail: $2.00 on 2 invoices (00090, 00089), oldest 24 days past due\nQA Maya Caller: $45.00 on invoice 00091, 14 days past due\nDaniel Reyes: $50.00 on 4 invoices (00033, 00032, 00030, 00031), oldest 13 days past due\nand 2 more customers, $2.00 (every invoice is in the table below)\n\nNot yet due, $3,024.80 on 23 invoices:\n\nMarvin Chen: $1,287.08 on 2 invoices (00052, 00060), due Nov 6\nZZ Gmail Estimate Walk: $427.59 on invoice 00123, due Nov 23\nQA4353 QBO Check: $383.74 on invoice 00071, due Nov 11\nand 14 more customers, $926.39 (every invoice is in the table below)\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Invoice | Owed | Due | Past due",
+    "rows": 10,
+    "first": [
+     "ZZ-fixture-assistant Consent 00129 $310.00 Sep 19 40 days",
+     "ZZ-fixture-assistant NoConsent 00130 $275.00 Sep 24 35 days",
+     "Elena Petrova 00010 $201.19 Oct 1 28 days"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "which San Ramon customers have a pending quote",
+  "secs": 14,
+  "reply": "Customers with an estimate waiting\n\nCustomer\n\tEstimate\n\tTotal\n\tSent\n\n\nMaria Okonkwo\n\t\n01284\n\t\n$1,763.13\n\t\nOct 13\n\n1–1of1results\n\n10\n/ page\n1\n\n1 customer in San Ramon has an estimate waiting on an answer:\n\nMaria Okonkwo: estimate 01284 (GBB Walk Estimate), $1,763.13, sent Oct 13\n\nI can draft a follow-up for any of them for you to approve; just say which one.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Estimate | Total | Sent",
+    "rows": 1,
+    "first": [
+     "Maria Okonkwo 01284 $1,763.13 Oct 13"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "pull up my Danville people who still have an estimate out",
+  "secs": 14,
+  "reply": "Customers with an estimate waiting\n\nCustomer\n\tEstimate\n\tTotal\n\tSent\n\n\nZZ-fixture-assistant Danville Estimate\n\t\n01734\n\t\n$100.00\n\t\n\n1–1of1results\n\n10\n/ page\n1\n\n1 customer in Danville has an estimate waiting on an answer:\n\nZZ-fixture-assistant Danville Estimate: estimate 01734 (ZZ-fixture-assistant Danville estimate), $100.00\n\nI can draft a follow-up for any of them for you to approve; just say which one.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Estimate | Total | Sent",
+    "rows": 1,
+    "first": [
+     "ZZ-fixture-assistant Danville Estimate 01734 $100.00 "
+    ]
+   }
+  ]
+ },
+ {
+  "q": "who do we have in Austin?",
+  "secs": 14,
+  "reply": "I can't list customers by city on its own yet, so I can't say who you have in Austin.\n\nI can show the customers in Austin who have an estimate waiting on an answer.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "how many invoices are overdue and what do they add up to",
+  "secs": 14,
+  "reply": "Money owed\n\nCustomer\n\tInvoice\n\tOwed\n\tDue\n\tPast due\n\n\nZZ-fixture-assistant Consent\n\t\n00129\n\t\n$310.00\n\t\nSep 19\n\t\n40 days\n\n\nZZ-fixture-assistant NoConsent\n\t\n00130\n\t\n$275.00\n\t\nSep 24\n\t\n35 days\n\n\nElena Petrova\n\t\n00010\n\t\n$201.19\n\t\nOct 1\n\t\n28 days\n\n\nTaqueria El Faro\n\t\n00011\n\t\n$309.94\n\t\nOct 1\n\t\n28 days\n\n\nQA6436 EstimateEmail\n\t\n00090\n\t\n$1.00\n\t\nOct 5\n\t\n24 days\n\n\nQA6436 EstimateEmail\n\t\n00089\n\t\n$1.00\n\t\nOct 15\n\t\n14 days\n\n\nQA Maya Caller\n\t\n00091\n\t\n$45.00\n\t\nOct 15\n\t\n14 days\n\n\nQA3355 T1 PayLink\n\t\n00095\n\t\n$1.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00033\n\t\n$14.00\n\t\nOct 16\n\t\n13 days\n\n\nDaniel Reyes\n\t\n00032\n\t\n$13.00\n\t\nOct 16\n\t\n13 days\n\n1–10of14results\n\n10\n/ page\n1\n2\n\nOverdue Invoices · This Month\n\n$610\n\nno figure for the month before\n\nOpen Report\n\n9 customers are past due, $1,385.13 on 14 invoices:\n\nZZ-fixture-assistant Consent: $500.00 on 2 invoices (00129, 00131), oldest 40 days past due\nZZ-fixture-assistant NoConsent: $275.00 on invoice 00130, 35 days past due\nTaqueria El Faro: $309.94 on invoice 00011, 28 days past due\nElena Petrova: $201.19 on invoice 00010, 28 days past due\nQA6436 EstimateEmail: $2.00 on 2 invoices (00090, 00089), oldest 24 days past due\nQA Maya Caller: $45.00 on invoice 00091, 14 days past due\nDaniel Reyes: $50.00 on 4 invoices (00033, 00032, 00030, 00031), oldest 13 days past due\nQA3355 T1 PayLink: $1.00 on invoice 00095, 13 days past due\nQA3355 T1 NoEmail: $1.00 on invoice 00096, 13 days past due\n\nWant reminders for the past-due ones? Say \"follow up everyone overdue\" and I'll draft them for you to approve; nothing is sent until you do.\n\nOverdue invoices as of now: $610.13 across 11 invoices. See the Accounts Receivable Aging report.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": [
+   {
+    "head": "Customer | Invoice | Owed | Due | Past due",
+    "rows": 10,
+    "first": [
+     "ZZ-fixture-assistant Consent 00129 $310.00 Sep 19 40 days",
+     "ZZ-fixture-assistant NoConsent 00130 $275.00 Sep 24 35 days",
+     "Elena Petrova 00010 $201.19 Oct 1 28 days"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "thanks, that's all",
+  "secs": 14,
+  "reply": "You're welcome! If you need anything else, feel free to ask.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "q": "what can you do?",
+  "secs": 14,
+  "reply": "I can look up customers, jobs, invoices, payments, customer reviews, and how the business is doing. I can also find overdue invoices, who owes you money, customers in a city with an estimate waiting, today's job board, and the pricebook. Additionally, I can create or update a customer, add a line to an estimate, or start a new estimate for you to approve.\n\nFor example, you could ask me to find overdue invoices.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ }
+]
