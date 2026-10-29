@@ -1,0 +1,35 @@
+messages keys :: ["user:01a186ee-e86d-7000-8000-231db6f5cb7c","assistant:01a186ee-f41a-7000-8000-094dadb3de02","user:01a186ef-1df7-7000-8000-154ef96c1efe","assistant:01a186ef-292d-7000-8000-0e00d4309336"]
+ids :: {"A1":"01a186ee-f41a-7000-8000-094dadb3de02","A2":"01a186ef-292d-7000-8000-0e00d4309336","U1":"01a186ee-e86d-7000-8000-231db6f5cb7c"}
+0 list before :: "200 {\"results\":[],\"size\":0}"
+1 PUT A1 up :: [200,{"session_id":"01a186ee-e688-7000-8000-1893349d6a8a","message_id":"01a186ee-f41a-7000-8000-094dadb3de02","rating":"up","note":null,"updated_at":"2026-10-29T09:14:00.894Z"}]
+1 list :: "200 {\"results\":[{\"session_id\":\"01a186ee-e688-7000-8000-1893349d6a8a\",\"message_id\":\"01a186ee-f41a-7000-8000-094dadb3de02\",\"rating\":\"up\",\"note\":null,\"updated_at\":\"2026-10-29T09:14:00.894Z\"}],\"size\":1}"
+2 PUT A2 down 500 :: [200,500,"down"]
+2 list :: [200,[["A1","up",0],["A2","down",500]]]
+3 PUT A2 up :: [200,"up"]
+3 list :: [["A1","up",null],["A2","up",null]]
+4 DELETE A1 :: [400,{"statusCode":400,"message":"Body cannot be empty when content-type is set to 'application/json'","errorCode":"UNMAPPED_REQUEST_ERROR","timestamp":"2026-10-29T09:14:02.458Z","path":"/v1/ai/agent/sessions/01a186ee-e688-7000-8000-1893349d6a8a/messages/01a186ee-f41a-7000-8000-094dadb3de02/rating","trace_id":"15266fdd-d379-11f1-89c6-17547784f4d3"}]
+4 list :: [["A1","up"],["A2","up"]]
+5 PUT A1 down 501 :: [400,"note: note must be 500 characters or fewer"]
+5 list :: [["A1","up"],["A2","up"]]
+6 PUT A1 down no note :: [200,"down",null]
+6 list :: [["A1","down",null],["A2","up",null]]
+8 PUT U1 :: [404,"Assistant answer not found","NOT_FOUND"]
+8 list :: "200 {\"results\":[{\"session_id\":\"01a186ee-e688-7000-8000-1893349d6a8a\",\"message_id\":\"01a186ee-f41a-7000-8000-094dadb3de02\",\"rating\":\"down\",\"note\":null,\"updated_at\":\"2026-10-29T09:14:03.425Z\"},{\"session_id\":\"01a186ee-e688-7000-8000-1893349d6a8a\",\"message_id\":\"01a186ef-292d-7000-8000-0e00d4309336\",\"rating\":\"up\",\"note\":null,\"updated_at\":\"2026-10-29T09:14:01.878Z\"}],\"size\":2}"
+9 PUT S2-answer via S :: [404,"Assistant answer not found","NOT_FOUND"]
+9 list S :: "200 {\"results\":[{\"session_id\":\"01a186ee-e688-7000-8000-1893349d6a8a\",\"message_id\":\"01a186ee-f41a-7000-8000-094dadb3de02\",\"rating\":\"down\",\"note\":null,\"updated_at\":\"2026-10-29T09:14:03.425Z\"},{\"session_id\":\"01a186ee-e688-7000-8000-1893349d6a8a\",\"message_id\":\"01a186ef-292d-7000-8000-0e00d4309336\",\"rating\":\"up\",\"note\":null,\"updated_at\":\"2026-10-29T09:14:01.878Z\"}],\"size\":2}"
+9 list S2 :: [200,{"results":[],"size":0}]
+10a maybe :: [400,"rating: rating must be one of: up, down"]
+10b {} :: [400,"rating: rating must be one of: up, down"]
+10 list :: "200 {\"results\":[{\"session_id\":\"01a186ee-e688-7000-8000-1893349d6a8a\",\"message_id\":\"01a186ee-f41a-7000-8000-094dadb3de02\",\"rating\":\"down\",\"note\":null,\"updated_at\":\"2026-10-29T09:14:03.425Z\"},{\"session_id\":\"01a186ee-e688-7000-8000-1893349d6a8a\",\"message_id\":\"01a186ef-292d-7000-8000-0e00d4309336\",\"rating\":\"up\",\"note\":null,\"updated_at\":\"2026-10-29T09:14:01.878Z\"}],\"size\":2}"
+11 twice :: [200,200,1,[["A1","down",null],["A2","down","QA7357 same twice"]]]
+12 down+note then up :: [200,[["A1","down",null],["A2","up",null]]]
+extra note with up :: [400,"A note can only be sent with a thumbs-down"]
+13 messages unchanged :: {"before":[4,"2b65bc9ad45b"],"after":[4,"2b65bc9ad45b"]}
+cleanup A1 :: 400
+cleanup A2 :: 400
+final list :: "200 {\"results\":[{\"session_id\":\"01a186ee-e688-7000-8000-1893349d6a8a\",\"message_id\":\"01a186ee-f41a-7000-8000-094dadb3de02\",\"rating\":\"down\",\"note\":null,\"updated_at\":\"2026-10-29T09:14:03.425Z\"},{\"session_id\":\"01a186ee-e688-7000-8000-1893349d6a8a\",\"message_id\":\"01a186ef-292d-7000-8000-0e00d4309336\",\"rating\":\"up\",\"note\":null,\"updated_at\":\"2026-10-29T09:14:07.116Z\"}],\"size\":2}"
+4 before :: [["A1","up",null],["A2","down","QA7357 keep"]]
+4 DELETE A1 :: 200 {"session_id":"01a186ee-e688-7000-8000-1893349d6a8a","message_id":"01a186ee-f41a-7000-8000-094dadb3de02","rating":null,"note":null,"updated_at":null}
+4 after :: [["A2","down","QA7357 keep"]]
+cleanup DELETE A2 :: 200 {"session_id":"01a186ee-e688-7000-8000-1893349d6a8a","message_id":"01a186ef-292d-7000-8000-0e00d4309336","rating":null,"note":null,"updated_at":null}
+final :: []
