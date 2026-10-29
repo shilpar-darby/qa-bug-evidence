@@ -1,0 +1,15 @@
+#4402 live run, Acme 2608181, admin, 2026-10-29 06:31-06:39Z. Route "QA4402 route" (Tuesdays), cycle 2026-11-03, guest stops: QA5170 2100 Ross Ave Dallas + QA2194 4115 Rawlins St Dallas. Optimize only (never committed).
+Technician T "QA4402 Profile Tech": day_start_kind home, day_end_kind office, office B "QA4402 North depot" (33.0198,-96.6989), home pin (32.9126,-96.6389), lunch 12:00-14:00/30. Technician P: Rex Holloway (no profile). Acme Dallas HQ (32.7799,-96.8013) is the default office.
+
+T, start office / end office: solve 01a1865c-6050-7d79-9759-58b0ed2ed6f2 drive_min_est=44 unassigned=0 anchor_fallbacks=[]
+T, start tech_home / end tech_home: solve 01a1865d-3ee1-7e6f-ac9e-ca635bae1f0f drive_min_est=58 unassigned=0 anchor_fallbacks=[]
+T, start last_stop / end last_stop (no position today): solve 01a1865d-6aa0-7ac3-a554-a75215e469d2 drive_min_est=52 unassigned=0 anchor_fallbacks=[{"technician_id": "01a1865b-cc22-7445-9a4f-0b74e3ae0461", "anchor": "start", "kind": "last_stop", "reason": "no_position_today", "fell_back_to": "home_pin"}, {"technician_id": "01a1865b-cc22-7445-9a4f-0b74e3ae0461", "anchor": "end", "kind": "last_stop", "reason": "no_position_today", "fell_back_to": "technician_office"}]
+T, office/office again (control): solve 01a1865d-9609-724b-81c4-21466e1d7d3f drive_min_est=44 unassigned=0 anchor_fallbacks=[]
+P (Rex, no profile), office/office: solve 01a1865d-c691-71ca-8fb7-2752c8f2d70d drive_min_est=17 unassigned=0 anchor_fallbacks=[]
+T with home pin and office removed, tech_home/tech_home: solve 01a1865f-5e65-7796-91a2-ade5b8122677 drive_min_est=17 unassigned=0 anchor_fallbacks=[{"technician_id": "01a1865b-cc22-7445-9a4f-0b74e3ae0461", "anchor": "start", "kind": "tech_home", "reason": "no_home_pin", "fell_back_to": "tenant_office"}, {"technician_id": "01a1865b-cc22-7445-9a4f-0b74e3ae0461", "anchor": "end", "kind": "tech_home", "reason": "no_home_pin", "fell_back_to": "tenant_office"}]
+
+Board feed GET /v1/jobs/assigned/today?date=2026-10-29 rows:
+QA4402 Profile Tech {"location_recorded_at": null, "day_start_kind": "home", "day_end_kind": "office", "office": {"office_id": "01a1865b-c82c-7445-9a4f-02049c77cc71", "name": "QA4402 North depot", "latitude": 33.0198, "longitude": -96.6989, "is_default": false}, "home_latitude": 32.9126, "home_longitude": -96.6389, "lunch": {"earliest_start": "12:00", "latest_end": "14:00", "minutes": 30}}
+Rex Holloway {"location_recorded_at": null, "day_start_kind": "office", "day_end_kind": "office", "office": {"office_id": "01a0238d-2adb-7222-b124-7cfbe56cd4b6", "name": "Acme Dallas HQ", "latitude": 32.77985011526431, "longitude": -96.80125289259034, "is_default": true}, "home_latitude": null, "home_longitude": null, "lunch": null}
+
+Cleanup: route deleted 204; technician deactivated (read 404); office B deleted (list shows only Acme Dallas HQ); both visits back in unrouted (13), scheduled, no technician, 2026-11-03T15:00Z.
