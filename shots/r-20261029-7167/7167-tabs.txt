@@ -1,0 +1,50 @@
+#7167 TC-37 keyboard walk, Acme 2608181, QA Dispatcher, board Tue Oct 27, Andre Whitfield (On Leave) -> Reassign, 2026-10-29 ~05:35Z
+drawer: Cover Andre Whitfield's Day Close
+focus before Enter: BUTTON:Reassign
+focus after Enter (drawer open): BUTTON:Reassign
+Tab 1: DIV:QA4420 R3 Plano extra 2 - KEEP · Visit 1/3 Grace Whitfield
+Tab 2: DIV:QA4420 R3 Garland extra 3 - KEEP · Visit 1/3 Grace Whitfield
+Tab 3: DIV:QA4420 R3 Irving extra 4 - KEEP · Visit 1/3 Grace Whitfield
+Tab 4: DIV:QA4420 R3 Frisco extra 5 - KEEP · Visit 1/3 Grace Whitfield
+Tab 5: DIV:QA4420 R3 Arlington extra 6 - KEEP · Visit 1/3 Grace Whitfield
+Tab 6: DIV:QA4420 R3 Richardson extra 7 - KEEP · Visit 1/3 Grace Whitfield
+Tab 7: DIV:QA4420 R3 Garland extra 8 - KEEP · Visit 1/3 Grace Whitfield
+Tab 8: DIV:QA4420 R3 Irving weekly - KEEP · Visit 1/6 Grace Whitfield
+Tab 9: DIV:QA4420 R3 Plano weekly - KEEP · Visit 1/6 Grace Whitfield
+Tab 10: DIV:QA4420 R3 Garland weekly - KEEP · Visit 1/6 Grace Whitfield
+Tab 11: DIV:QA4420 R3 Richardson extra 1 - KEEP · Visit 1/3 Grace Whitfield
+Tab 12: DIV:QA4420 R3 Richardson weekly - KEEP · Visit 1/6 Grace Whitfield
+Tab 13: DIV:QA4420 R3 Arlington weekly - KEEP · Visit 1/6 Grace Whitfield
+Tab 14: DIV:QA4420 R3 Frisco weekly - KEEP · Visit 1/6 Grace Whitfield
+Tab 15: DIV:QA2252 R7 guest G1 - KEEP Diane Bennett
+Tab 16: DIV:QA 6811 reassign check - furnace filter swap (Lucia) QA2809 MultiSite 
+Tab 17: BUTTON:Collapse QA4078 LA Day Crew (1 technicians)
+Tab 18: BUTTON:Reassign All Jobs from Desmond Blaylock
+Tab 19: BUTTON:Collapse QA4078 LA Overnight Crew (1 technicians)
+Tab 20: BUTTON:Reassign All Jobs from Marisol Vega
+Tab 21: BUTTON:Collapse QA4713 LA Day Crew (1 technicians)
+Tab 22: BUTTON:Reassign All Jobs from QA7276 Crew Supervisor
+Tab 23: BUTTON:Close Drawer [in dialog]
+Tab 24: BUTTON:Close [in dialog]
+Tab 25: BODY:Skip to Main Content Servinix Live Dispatch Jobs AI Receptionist Fleet
+Tab 26: A:Skip to Main Content
+Tab 27: BUTTON:Collapse Sidebar
+Tab 28: A:Live
+Tab 29: A:Dispatch
+Tab 30: A:Jobs
+Tab 31: A:AI Receptionist
+Tab 32: A:Fleet
+Tab 33: A:Customers
+Tab 34: A:Estimates
+Tab 35: A:Pricebook
+Tab 36: A:AI Assistant
+Tab 37: A:Reports
+Tab 38: A:Settings
+Tab 39: BUTTON:Customize
+Tab 40: BUTTON:Match System Theme
+Tab 41: BUTTON:Light Mode
+Tab 42: BUTTON:Dark Mode
+Tab 43: BUTTON:Help and Support
+Tab 44: BUTTON:Open the AI Assistant. Ask about customers, jobs, invoices, and balanc
+Tab 45: BUTTON:User Menu
+after Escape: BUTTON:Reassign (drawer gone: True)
