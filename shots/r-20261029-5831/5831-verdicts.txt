@@ -1,0 +1,15 @@
+GET /v1/support/ai-reviews/verdicts?from=2026-10-29&to=2026-10-29&agent=otto as SUPPORT_AI_REVIEWER (shilpar+aireviewer), read 2026-10-29 ~05:30Z, HTTP 200
+rows 1175 {'scored': 995, 'skipped': 180} verdicts {'pass': 768, 'fail': 227, None: 180}
+scored sessions 199 | axes per session {5: 199}
+axes {'grounded': 199, 'honest_writes': 199, 'right_proposal': 199, 'honest_gaps': 199, 'answered': 199}
+rubric_version {'v2': 995} | judge_model {'gpt-4o-2024-08-06': 995}
+duplicate (session, axis, rubric, model, turn) keys: 0
+fail rows 227 | fail rows without a note: 0
+scored rows without tokens: 0
+tenants {2608181: 310, 2512051: 115, 2605182: 570}
+
+US 2605182 sample row: {"id": "01a184f8-5c43-7000-8000-7fc2a9981fe6", "run_id": "01a184f8-5c42-7000-8000-77fefd6ee297", "conversation_id": "01a12f9b-d245-722f-9dca-2ca983394125", "agent": "otto", "channel": "in_app", "tenant_id": 2605182, "source": "dogfood", "axis": "grounded", "rubric_version": "v2", "judge_model": "gpt-4o-2024-08-06", "last_turn_position": 3, "status": "scored", "skip_reason": null, "verdict": "pass", "note": null, "tokens_in": 2910, "tokens_out": 10, "run_started_at": "2026-10-29T00:02:49.840Z", "created_at": "2026-10-29T00:03:51.490Z", "updated_at": "2026-10-29T00:03:52.269Z", "run_status": "scored"}
+
+fail sample row: {"id": "01a184f7-6b98-7000-8000-4eae64657758", "run_id": "01a184f7-6b96-7000-8000-3768c36c4954", "conversation_id": "01a12ea6-e141-7000-8000-39c8ce60ff55", "agent": "otto", "channel": "in_app", "tenant_id": 2608181, "source": "real", "axis": "right_proposal", "rubric_version": "v2", "judge_model": "gpt-4o-2024-08-06", "last_turn_position": 1, "status": "scored", "skip_reason": null, "verdict": "fail", "note": "The proposal card includes follow-ups for multiple customers, not just Marguerite Delacroix as requested.", "tokens_in": 5592, "tokens_out": 30, "run_started_at": "2026-10-29T00:02:49.840Z", "created_at": "2026-10-29T00:02:49.878Z", "updated_at": "2026-10-29T00:02:54.895Z", "run_status": "scored"}
+
+Support L2 (shilpar+support) on the same read: 403 "SUPPORT_ADMIN or AI Reviewer access required"
