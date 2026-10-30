@@ -1,0 +1,5 @@
+route_name,seq,alias,address,city,state,zip,lat,lng,time_window_start,time_window_end,service_time
+QA7149 Route,1,QA7149 Pool Co C,103 Main St,Dallas,TX,75201,32.7803,-96.8003,08:00,09:00,30
+QA7149 Route,2,QA7149 Pool Co A,101 Main St,Dallas,TX,75201,32.7801,-96.8001,09:00,10:00,30
+QA7149 Route,3,QA7149 Pool Co D,104 Main St,Dallas,TX,75201,32.7804,-96.8004,10:00,11:00,30
+QA7149 Route,4,QA7149 Pool Co B,102 Main St,Dallas,TX,75201,32.7802,-96.8002,11:00,12:00,30
