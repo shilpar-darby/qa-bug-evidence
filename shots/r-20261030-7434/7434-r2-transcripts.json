@@ -1,0 +1,58 @@
+[
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Navanit Tripathi in Bengaluru paid $20 cash on his oldest open invoice. Record it.",
+  "secs": 14,
+  "reply": "Navanit Tripathi in Bengaluru has no open invoices.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Invoice 00284.",
+  "secs": 14,
+  "reply": "Invoice 00284 isn't Navanit Tripathi in Bengaluru's: it belongs to Navanit Tripathi, 350 5th Avenue, New York. Nothing was drafted. If the payment is for invoice 00284, say \"Record a cash payment of $20.00 on invoice 00284.\"\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 2,
+  "cardText": [],
+  "q": "Navanit Tripathi in New York paid $20 cash on his oldest open invoice. Record it.",
+  "secs": 14,
+  "reply": "Approval required\n\nRecord Payment\n\nHigh risk\n\nInvoice 00206 · Navanit Tripathi\n\nPayment\nCash · $20.00\nAfter this\nPartially Paid · $1,263.00 Left\nEdit\nReject\nApprove\n\nA $20 cash payment is ready for you to approve on invoice 00206 for Navanit Tripathi. The current balance due on this invoice is $1,283, with a due date of June 25, 2026.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "Navanit Tripathi paid $20 cash on his oldest open invoice. Record it.",
+  "secs": 14,
+  "reply": "2 customers are called Navanit Tripathi. Which invoice do you mean?\n\nNavanit Tripathi, 364 Swagath Road, Bengaluru:\n\nno open invoices\n\nNavanit Tripathi, 350 5th Avenue, New York:\n\nInvoice 00206: $1,283.00 due, due 2026-06-25\nInvoice 00241: $132.00 due, due 2026-06-26\nInvoice 00284: $44.00 due, due 2026-07-03\nInvoice 00300: $840.00 due, due 2026-07-03\nInvoice 00136: $438.21 due, due 2026-07-18\nInvoice 00137: $308.37 due, due 2026-07-18\nInvoice 00138: $1,774.48 due, due 2026-07-18\nInvoice 00155: $400.00 due, due 2026-07-20\nInvoice 00157: $300.00 due, due 2026-07-20\nInvoice 00162: $490.00 due, due 2026-07-22\nand 60 more\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "QA5360 Surcharge paid $5 cash on the oldest open invoice. Record it.",
+  "secs": 14,
+  "reply": "2 customers are called Surcharge. Which invoice do you mean?\n\nQA5360 Surcharge, 100 Peachtree St NW, Atlanta:\n\nInvoice 00753: $6.00 due, due 2026-10-15\nInvoice 00704: $4.00 due, due 2026-11-12\nInvoice 00705: $1.00 due, due 2026-11-12\nInvoice 00706: $2.00 due, due 2026-11-12\nInvoice 00755: $1.00 due, due 2026-11-14\nInvoice 00902: $1.00 due, due 2026-11-22\n\nQA5361 Surcharge, 100 Peachtree St NW, Atlanta:\n\nno open invoices\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 1,
+  "cardText": [],
+  "q": "QA5360 Surcharge paid $5 cash on the oldest open invoice. Record it.",
+  "secs": 14,
+  "reply": "2 customers are called Surcharge. Which invoice do you mean?\n\nQA5360 Surcharge, 100 Peachtree St NW, Atlanta:\n\nInvoice 00753: $6.00 due, due 2026-10-15\nInvoice 00704: $4.00 due, due 2026-11-12\nInvoice 00705: $1.00 due, due 2026-11-12\nInvoice 00706: $2.00 due, due 2026-11-12\nInvoice 00755: $1.00 due, due 2026-11-14\nInvoice 00902: $1.00 due, due 2026-11-22\n\nQA5361 Surcharge, 100 Peachtree St NW, Atlanta:\n\nno open invoices\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ },
+ {
+  "approveBtns": 2,
+  "cardText": [],
+  "q": "Mohammed Owais paid $10 cash on his oldest open invoice. Record it.",
+  "secs": 14,
+  "reply": "Approval required\n\nRecord Payment\n\nHigh risk\n\nInvoice INV-MOOW-2026-00001 · Mohammed Owais\n\nPayment\nCash · $10.00\nAfter this\nPartially Paid · $98.00 Left\nEdit\nReject\nApprove\n\nA $10 cash payment on invoice INV-MOOW-2026-00001 for Mohammed Owais is ready for you to approve. The current balance due on this invoice is $108.\n\nThe AI Assistant can make mistakes. Double-check important details before you act on them.",
+  "tables": []
+ }
+]
